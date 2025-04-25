@@ -1,3 +1,4 @@
+// src/pages/Home/Home.js
 import React, { useEffect, useState } from 'react';
 import styled from 'styled-components';
 import { motion } from 'framer-motion';
@@ -5,6 +6,23 @@ import RecipeCard from '../../components/RecipeCard/RecipeCard';
 import { Link } from 'react-router-dom';
 import axios from 'axios';
 
+// Configuração do serviço de API
+// Se você já tem o arquivo services/api.js, importe assim:
+// import { recipeService } from '../../services/api';
+
+// Se ainda não criou o arquivo services/api.js, use esta configuração temporária:
+const API_URL = process.env.REACT_APP_API_URL || 'http://localhost:5000/api';
+
+const api = axios.create({
+  baseURL: API_URL,
+  timeout: 10000,
+});
+
+const recipeService = {
+  getFeatured: () => api.get('/recipes/featured')
+};
+
+// Definição dos componentes estilizados
 const HeroSection = styled.div`
   height: 80vh;
   display: flex;
@@ -143,68 +161,30 @@ const AdBanner = styled.div`
 const Home = () => {
   const [featuredRecipes, setFeaturedRecipes] = useState([]);
   const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(null);
   
   useEffect(() => {
-    // Simulando uma chamada à API - substituir pelo seu endpoint real
-    // quando o backend estiver pronto
+    // Buscar receitas em destaque da API real
     const fetchFeaturedRecipes = async () => {
       try {
-        // Substituir por API real quando estiver pronto
-        // const response = await axios.get('/api/recipes/featured');
-        // setFeaturedRecipes(response.data);
+        setLoading(true);
+        setError(null);
         
-        // Dados mockados para demonstração
-        setTimeout(() => {
-          setFeaturedRecipes([
-            {
-              id: 1,
-              title: 'Bacalhau à Brás',
-              description: 'Um clássico da culinária portuguesa, feito com lascas de bacalhau, batata palha e ovos.',
-              imageUrl: 'https://example.com/bacalhau.jpg',
-              category: 'Prato Principal',
-              country: 'Portugal',
-              prepTime: 45,
-              servings: 4,
-              rating: 4.8
-            },
-            {
-              id: 2,
-              title: 'Pasta alla Norma',
-              description: 'Prato siciliano tradicional com berinjela, tomate e ricota salgada.',
-              imageUrl: 'https://example.com/pasta.jpg',
-              category: 'Prato Principal',
-              country: 'Itália',
-              prepTime: 30,
-              servings: 2,
-              rating: 4.5
-            },
-            {
-              id: 3,
-              title: 'Paella Valenciana',
-              description: 'A autêntica paella espanhola com frango, coelho e legumes frescos.',
-              imageUrl: 'https://example.com/paella.jpg',
-              category: 'Prato Principal',
-              country: 'Espanha',
-              prepTime: 60,
-              servings: 6,
-              rating: 4.9
-            },
-            {
-              id: 4,
-              title: 'Tiramisu',
-              description: 'Sobremesa italiana clássica com camadas de biscoitos embebidos em café e creme de mascarpone.',
-              imageUrl: 'https://example.com/tiramisu.jpg',
-              category: 'Doce',
-              country: 'Itália',
-              prepTime: 30,
-              servings: 8,
-              rating: 4.7
-            },
-          ]);
-          setLoading(false);
-        }, 1000);
+        const response = await recipeService.getFeatured();
+        
+        // Verificar se a resposta tem a estrutura esperada
+        if (response.data && response.data.success && response.data.data) {
+          setFeaturedRecipes(response.data.data);
+        } else {
+          setFeaturedRecipes(response.data || []);
+        }
       } catch (error) {
         console.error('Erro ao buscar receitas em destaque:', error);
+        setError('Falha ao carregar receitas. Por favor, tente novamente mais tarde.');
+        
+        // Opcional: dados de fallback
+        setFeaturedRecipes([]);
+      } finally {
         setLoading(false);
       }
     };
@@ -228,7 +208,7 @@ const Home = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
           >
-            LusoBite
+            LusoBites
           </HeroTitle>
           <HeroSubtitle
             initial={{ opacity: 0 }}
@@ -271,21 +251,32 @@ const Home = () => {
       </CategorySection>
       
       <AdBanner>
-      <AdBanner slot="1234567890" format="auto" />
+        <p>Publicidade</p>
         <div style={{ background: '#ddd', height: '90px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
           Anúncio 728x90
         </div>
       </AdBanner>
       
       <SectionTitle>Receitas em Destaque</SectionTitle>
+      
+      {error && (
+        <p style={{ textAlign: 'center', color: 'red' }}>{error}</p>
+      )}
+      
       {loading ? (
         <p style={{ textAlign: 'center' }}>Carregando receitas...</p>
       ) : (
         <>
           <RecipesGrid>
-            {featuredRecipes.map(recipe => (
-              <RecipeCard key={recipe.id} recipe={recipe} />
-            ))}
+            {featuredRecipes.length > 0 ? (
+              featuredRecipes.map(recipe => (
+                <RecipeCard key={recipe._id || recipe.id} recipe={recipe} />
+              ))
+            ) : (
+              <p style={{ textAlign: 'center', gridColumn: '1 / -1' }}>
+                Nenhuma receita em destaque encontrada.
+              </p>
+            )}
           </RecipesGrid>
           <ViewAllButton to="/receitas">Ver Todas as Receitas</ViewAllButton>
         </>

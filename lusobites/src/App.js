@@ -1,25 +1,60 @@
 // src/App.js
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Navbar from './components/Navbar/Navbar';
-import Footer from './components/Footer/Footer';
 import Home from './pages/Home/Home';
-import RecipeDetail from './pages/RecipeDetail/RecipeDetail';
-// Importar outras páginas conforme necessário
+import Login from './pages/Login/Login';
+import Dashboard from './pages/Admin/Dashboard';
+import AddRecipe from './pages/Admin/AddRecipe';
+import RecipeManagement from './pages/Admin/RecipeManagement';
+import ProtectedRoute from './components/ProtectedRoute';
+import AdminLayout from './layouts/AdminLayout';
+import MainLayout from './layouts/MainLayout';
+// Outros imports...
 
 function App() {
   return (
     <Router>
-      <Navbar />
       <Routes>
-        <Route path="/" element={<Home />} />
-        {/* Adicione outras rotas conforme necessário */}
-        <Route path="/recipe/:id" element={<RecipeDetail />} />
-        <Route path="/category/:category" element={<Home />} />
-        <Route path="/country/:country" element={<Home />} />
-        <Route path="/login" element={<Home />} />
+        {/* Rotas Públicas */}
+        <Route path="/" element={<MainLayout><Home /></MainLayout>} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/receitas" element={<MainLayout>...</MainLayout>} />
+        
+        {/* Rotas de Admin */}
+        <Route path="/admin" element={
+          <ProtectedRoute isAdmin={true}>
+            <AdminLayout>
+              <Dashboard />
+            </AdminLayout>
+          </ProtectedRoute>
+        } />
+        
+        <Route path="/admin/dashboard" element={
+          <ProtectedRoute isAdmin={true}>
+            <AdminLayout>
+              <Dashboard />
+            </AdminLayout>
+          </ProtectedRoute>
+        } />
+        
+        <Route path="/admin/recipes" element={
+          <ProtectedRoute isAdmin={true}>
+            <AdminLayout>
+              <RecipeManagement />
+            </AdminLayout>
+          </ProtectedRoute>
+        } />
+        
+        <Route path="/admin/add-recipe" element={
+          <ProtectedRoute isAdmin={true}>
+            <AdminLayout>
+              <AddRecipe />
+            </AdminLayout>
+          </ProtectedRoute>
+        } />
+        
+        {/* Adicione mais rotas de admin aqui */}
       </Routes>
-      <Footer />
     </Router>
   );
 }

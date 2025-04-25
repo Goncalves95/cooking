@@ -2,10 +2,7 @@
 import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import styled from 'styled-components';
-import { motion } from 'framer-motion';
-import axios from 'axios';
 import AdBanner from '../../components/Advertisement/AdBanner';
-import { Helmet } from 'react-helmet-async';
 
 const RecipeContainer = styled.div`
   max-width: 1000px;

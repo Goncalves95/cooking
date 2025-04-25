@@ -83,9 +83,54 @@ const Stats = styled.div`
   font-size: 0.8rem;
 `;
 
+const ErrorFallback = styled.div`
+  background-color: #f8f9fa;
+  border-radius: 12px;
+  padding: 1.5rem;
+  text-align: center;
+  color: #666;
+`;
+
 const RecipeCard = ({ recipe }) => {
+  // Tratamento para verificar se o objeto recipe possui todas as propriedades necessárias
+  if (!recipe || !recipe.title) {
+    return (
+      <ErrorFallback>
+        <p>Informações da receita indisponíveis</p>
+      </ErrorFallback>
+    );
+  }
+
+  // Função para formatar categoria (se vier como "prato-principal" da API, transforma em "Prato Principal")
+  const formatCategory = (category) => {
+    if (!category) return 'Sem categoria';
+    
+    // Se a categoria já for um título formatado, retorna como está
+    if (category.includes(' ') && category[0] === category[0].toUpperCase()) {
+      return category;
+    }
+    
+    // Caso contrário, formata a partir de kebab-case ou camelCase
+    return category
+      .replace(/-/g, ' ')
+      .replace(/([A-Z])/g, ' $1') // Adiciona espaço antes de letras maiúsculas (para camelCase)
+      .split(' ')
+      .map(word => word.charAt(0).toUpperCase() + word.slice(1).toLowerCase())
+      .join(' ')
+      .trim();
+  };
+
+  // Ajuste para usar o ID correto (MongoDB usa _id, outras APIs podem usar id)
+  const recipeId = recipe._id || recipe.id;
+  
+  // Imagem padrão caso a URL da imagem não esteja disponível
+  const imageUrl = recipe.imageUrl || 'https://via.placeholder.com/300x200?text=Sem+Imagem';
+  
+  // Se por algum motivo o rating não for um número, define como N/A
+  const rating = typeof recipe.rating === 'number' ? `${recipe.rating}/5` : 'N/A';
+  
   return (
-    <Link to={`/receitas/${recipe.id}`} style={{ textDecoration: 'none' }}>
+    <Link to={`/receitas/${recipeId}`} style={{ textDecoration: 'none' }}>
       <Card
         whileHover={{ y: -5 }}
         initial={{ opacity: 0, y: 20 }}
@@ -93,17 +138,24 @@ const RecipeCard = ({ recipe }) => {
         transition={{ duration: 0.3 }}
       >
         <ImageContainer>
-          <Image src={recipe.imageUrl} alt={recipe.title} />
-          <Category>{recipe.category}</Category>
-          <Country>{recipe.country}</Country>
+          <Image 
+            src={imageUrl} 
+            alt={recipe.title} 
+            onError={(e) => {
+              e.target.onerror = null; // Evita loop infinito
+              e.target.src = 'https://via.placeholder.com/300x200?text=Erro+ao+carregar';
+            }} 
+          />
+          <Category>{formatCategory(recipe.category)}</Category>
+          <Country>{recipe.country || 'Internacional'}</Country>
         </ImageContainer>
         <Content>
           <Title>{recipe.title}</Title>
-          <Description>{recipe.description}</Description>
+          <Description>{recipe.description || 'Sem descrição disponível.'}</Description>
           <Stats>
-            <span>⏱️ {recipe.prepTime} mins</span>
-            <span>👤 {recipe.servings} porções</span>
-            <span>⭐ {recipe.rating}/5</span>
+            <span>⏱️ {recipe.prepTime || '?'} mins</span>
+            <span>👤 {recipe.servings || '?'} porções</span>
+            <span>⭐ {rating}</span>
           </Stats>
         </Content>
       </Card>
