@@ -271,7 +271,7 @@ const Home = () => {
       </CategorySection>
       
       <AdBanner>
-        <p>Espaço reservado para publicidade</p>
+      <AdBanner slot="1234567890" format="auto" />
         <div style={{ background: '#ddd', height: '90px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
           Anúncio 728x90
         </div>
