@@ -74,7 +74,7 @@ const Navbar = () => {
   
   return (
     <NavContainer>
-      <Logo>Luso<span>Bites</span></Logo>
+      <Logo>Luso<span>Bite</span></Logo>
       
       <NavLinks>
         <NavItem to="/">Início</NavItem>
