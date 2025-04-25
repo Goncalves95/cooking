@@ -97,11 +97,10 @@ const Navbar = () => {
         >
           <motion.div onClick={() => setIsMenuOpen(false)}>✕</motion.div>
           <NavItem to="/">Início</NavItem>
-          <NavItem to="/categorias/doce">Doces</NavItem>
-          <NavItem to="/categorias/prato-principal">Pratos Principais</NavItem>
-          <NavItem to="/categorias/entrada">Entradas</NavItem>
-          <NavItem to="/categorias/inovacoes">Inovações</NavItem>
+          <NavItem to="/categorias">Receitas</NavItem>
           <NavItem to="/paises">Países</NavItem>
+          <NavItem to="/contato">Contato</NavItem>
+          <NavItem to="/sobre">Sobre Nós</NavItem>
         </MobileMenu>
       )}
     </NavContainer>
