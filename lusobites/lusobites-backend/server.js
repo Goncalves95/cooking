@@ -17,7 +17,7 @@ const app = express();
 const allowedOrigins = [
   // URL de produção do seu frontend (ajuste para o seu domínio real)
   'https://lusobites.vercel.app',
-  'https://www.lusobites.com',
+  'https://www.lusobite.com',
   
   // URLs de desenvolvimento
   'http://localhost:3000',
