@@ -4,6 +4,8 @@ import { useParams } from 'react-router-dom';
 import styled from 'styled-components';
 import { motion } from 'framer-motion';
 import axios from 'axios';
+import AdBanner from '../../components/Advertisement/AdBanner';
+import { Helmet } from 'react-helmet-async';
 
 const RecipeContainer = styled.div`
   max-width: 1000px;
@@ -288,6 +290,7 @@ const RecipeDetail = () => {
       
       <AdContainer>
         <div className="ad-label">Publicidade</div>
+        <AdBanner slot="1234567890" format="auto" />
         <div className="ad-placeholder">Anúncio 728x90</div>
       </AdContainer>
       
@@ -329,6 +332,7 @@ const RecipeDetail = () => {
       
       <AdContainer>
         <div className="ad-label">Publicidade</div>
+        <AdBanner slot="1234567890" format="auto" />
         <div className="ad-placeholder">Anúncio 300x250</div>
       </AdContainer>
     </RecipeContainer>
