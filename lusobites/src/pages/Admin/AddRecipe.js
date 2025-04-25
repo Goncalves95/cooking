@@ -226,4 +226,231 @@ const AddRecipe = () => {
     
     try {
       // Quando o backend estiver pronto, substituir por chamada real
-      // const response = await axios.post('/api/recipes',
+      // const response = await axios.post('/api/recipes', formData);
+      
+      // Simulando chamada de API
+      console.log('Enviando dados da receita:', formData);
+      
+      // Simular uma resposta de sucesso após 1.5 segundos
+      setTimeout(() => {
+        alert('Receita adicionada com sucesso!');
+        navigate('/admin/recipes');
+        setIsLoading(false);
+      }, 1500);
+      
+    } catch (error) {
+      console.error('Erro ao adicionar receita:', error);
+      setIsLoading(false);
+      alert('Erro ao adicionar receita. Por favor, tente novamente.');
+    }
+  };
+  
+  return (
+    <PageContainer>
+      <Title>Adicionar Nova Receita</Title>
+      
+      <Form onSubmit={handleSubmit}>
+        <FormGroup>
+          <Label htmlFor="title">Título da Receita</Label>
+          <Input 
+            type="text" 
+            id="title" 
+            name="title" 
+            value={formData.title} 
+            onChange={handleChange} 
+            required 
+          />
+        </FormGroup>
+        
+        <FormGroup>
+          <Label htmlFor="description">Descrição</Label>
+          <TextArea 
+            id="description" 
+            name="description" 
+            value={formData.description} 
+            onChange={handleChange} 
+            required 
+          />
+        </FormGroup>
+        
+        <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1rem' }}>
+          <FormGroup>
+            <Label htmlFor="category">Categoria</Label>
+            <Select 
+              id="category" 
+              name="category" 
+              value={formData.category} 
+              onChange={handleChange} 
+              required
+            >
+              <option value="doce">Doce</option>
+              <option value="prato-principal">Prato Principal</option>
+              <option value="entrada">Entrada</option>
+              <option value="inovacoes">Inovações</option>
+            </Select>
+          </FormGroup>
+          
+          <FormGroup>
+            <Label htmlFor="country">País de Origem</Label>
+            <Input 
+              type="text" 
+              id="country" 
+              name="country" 
+              value={formData.country} 
+              onChange={handleChange} 
+              required 
+            />
+          </FormGroup>
+        </div>
+        
+        <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr 1fr', gap: '1rem' }}>
+          <FormGroup>
+            <Label htmlFor="prepTime">Tempo de Preparo (min)</Label>
+            <Input 
+              type="number" 
+              id="prepTime" 
+              name="prepTime" 
+              value={formData.prepTime} 
+              onChange={handleChange} 
+              required 
+            />
+          </FormGroup>
+          
+          <FormGroup>
+            <Label htmlFor="cookTime">Tempo de Cozimento (min)</Label>
+            <Input 
+              type="number" 
+              id="cookTime" 
+              name="cookTime" 
+              value={formData.cookTime} 
+              onChange={handleChange} 
+              required 
+            />
+          </FormGroup>
+          
+          <FormGroup>
+            <Label htmlFor="servings">Porções</Label>
+            <Input 
+              type="number" 
+              id="servings" 
+              name="servings" 
+              value={formData.servings} 
+              onChange={handleChange} 
+              required 
+            />
+          </FormGroup>
+        </div>
+        
+        <FormGroup>
+          <Label htmlFor="imageUrl">URL da Imagem</Label>
+          <Input 
+            type="url" 
+            id="imageUrl" 
+            name="imageUrl" 
+            value={formData.imageUrl} 
+            onChange={handleChange} 
+            required 
+          />
+        </FormGroup>
+        
+        <FormGroup>
+          <Label htmlFor="youtubeUrl">URL do YouTube (opcional)</Label>
+          <Input 
+            type="url" 
+            id="youtubeUrl" 
+            name="youtubeUrl" 
+            value={formData.youtubeUrl} 
+            onChange={handleChange} 
+          />
+        </FormGroup>
+        
+        <FormGroup>
+          <Label>Ingredientes</Label>
+          <IngredientsList>
+            {formData.ingredients.map((ingredient, index) => (
+              <IngredientItem key={index}>
+                <Input 
+                  type="text" 
+                  placeholder="Quantidade" 
+                  value={ingredient.quantity} 
+                  onChange={(e) => handleIngredientChange(index, 'quantity', e.target.value)} 
+                />
+                <Input 
+                  type="text" 
+                  placeholder="Unidade (g, ml, etc.)" 
+                  value={ingredient.unit} 
+                  onChange={(e) => handleIngredientChange(index, 'unit', e.target.value)} 
+                />
+                <Input 
+                  type="text" 
+                  placeholder="Nome do ingrediente" 
+                  value={ingredient.name} 
+                  onChange={(e) => handleIngredientChange(index, 'name', e.target.value)} 
+                  required 
+                />
+                {formData.ingredients.length > 1 && (
+                  <Button 
+                    type="button" 
+                    className="danger" 
+                    onClick={() => handleRemoveIngredient(index)}
+                  >
+                    Remover
+                  </Button>
+                )}
+              </IngredientItem>
+            ))}
+            <Button 
+              type="button" 
+              className="secondary" 
+              onClick={handleAddIngredient}
+            >
+              + Adicionar Ingrediente
+            </Button>
+          </IngredientsList>
+        </FormGroup>
+        
+        <FormGroup>
+          <Label>Modo de Preparo</Label>
+          <InstructionsList>
+            {formData.instructions.map((instruction, index) => (
+              <InstructionItem key={index}>
+                <TextArea 
+                  placeholder={`Passo ${index + 1}`} 
+                  value={instruction} 
+                  onChange={(e) => handleInstructionChange(index, e.target.value)} 
+                  required 
+                />
+                {formData.instructions.length > 1 && (
+                  <Button 
+                    type="button" 
+                    className="danger" 
+                    onClick={() => handleRemoveInstruction(index)}
+                  >
+                    Remover
+                  </Button>
+                )}
+              </InstructionItem>
+            ))}
+            <Button 
+              type="button" 
+              className="secondary" 
+              onClick={handleAddInstruction}
+            >
+              + Adicionar Passo
+            </Button>
+          </InstructionsList>
+        </FormGroup>
+        
+        <SubmitButton 
+          type="submit" 
+          className="primary" 
+          disabled={isLoading}
+        >
+          {isLoading ? 'Salvando...' : 'Salvar Receita'}
+        </SubmitButton>
+      </Form>
+    </PageContainer>
+  );
+};
+
+export default AddRecipe;
