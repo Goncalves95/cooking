@@ -70,6 +70,16 @@ app.get('/', (req, res) => {
   res.send('API do LusoBites está funcionando!');
 });
 
+// Adicione uma rota específica para teste de conexão
+app.get('/api/test-connection', (req, res) => {
+  res.json({
+    success: true,
+    message: 'Conexão com backend estabelecida com sucesso!',
+    timestamp: new Date().toISOString(),
+    env: process.env.NODE_ENV || 'development'
+  });
+});
+
 // Middleware para tratamento de erros
 app.use((err, req, res, next) => {
   console.error(err.stack);
@@ -89,13 +99,8 @@ app.use((err, req, res, next) => {
   });
 });
 
-// Definir porta
+// Definir porta (APENAS UMA VEZ)
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
-  console.log(`Servidor rodando na porta ${PORT}`);
-});
-
-// Iniciar servidor
-app.listen(PORT, () => {
-  console.log(`Servidor rodando na porta ${PORT}`);
+  console.log(`Servidor rodando na porta ${PORT} em modo ${process.env.NODE_ENV || 'development'}`);
 });
