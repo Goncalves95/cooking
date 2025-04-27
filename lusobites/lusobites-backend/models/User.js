@@ -1,24 +1,21 @@
+// models/User.js
 const mongoose = require('mongoose');
 const bcrypt = require('bcrypt');
 
 const UserSchema = new mongoose.Schema({
   name: {
     type: String,
-    required: [true, 'O nome é obrigatório']
+    required: true
   },
   email: {
     type: String,
-    required: [true, 'O e-mail é obrigatório'],
+    required: true,
     unique: true,
-    match: [
-      /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/,
-      'Forneça um e-mail válido'
-    ]
+    lowercase: true
   },
   password: {
     type: String,
-    required: [true, 'A senha é obrigatória'],
-    minlength: 6,
+    required: true,
     select: false
   },
   role: {
@@ -32,19 +29,28 @@ const UserSchema = new mongoose.Schema({
   }
 });
 
-// Criptografar senha antes de salvar
+// Hash password before saving
 UserSchema.pre('save', async function(next) {
   if (!this.isModified('password')) {
-    next();
+    return next();
   }
-
-  const salt = await bcrypt.genSalt(10);
-  this.password = await bcrypt.hash(this.password, salt);
+  
+  try {
+    const salt = await bcrypt.genSalt(10);
+    this.password = await bcrypt.hash(this.password, salt);
+    next();
+  } catch (error) {
+    next(error);
+  }
 });
 
-// Método para verificar se a senha está correta
+// Method to compare password
 UserSchema.methods.matchPassword = async function(enteredPassword) {
-  return await bcrypt.compare(enteredPassword, this.password);
+  try {
+    return await bcrypt.compare(enteredPassword, this.password);
+  } catch (error) {
+    throw new Error(error);
+  }
 };
 
 module.exports = mongoose.model('User', UserSchema);
