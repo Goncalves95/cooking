@@ -1,9 +1,10 @@
 // src/pages/Login/Login.js
-import React, { useState, useEffect } from 'react';
-import { useNavigate, Link } from 'react-router-dom';
+import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import styled from 'styled-components';
 import axios from 'axios';
 
+// Estilos (mesmos de antes)
 const LoginContainer = styled.div`
   max-width: 450px;
   margin: 4rem auto;
@@ -78,43 +79,25 @@ const ErrorMessage = styled.div`
   font-size: 0.9rem;
 `;
 
-const RegisterLink = styled.div`
-  text-align: center;
+const DebugInfo = styled.div`
   margin-top: 1.5rem;
+  padding: 1rem;
+  background-color: #f8f9fa;
+  border-radius: 6px;
   font-size: 0.9rem;
-  
-  a {
-    color: #2a6fc8;
-    font-weight: 600;
-    text-decoration: none;
-    
-    &:hover {
-      text-decoration: underline;
-    }
-  }
+  color: #666;
+  white-space: pre-wrap;
 `;
 
+// Componente Login
 const Login = () => {
   const navigate = useNavigate();
   const [formData, setFormData] = useState({ email: '', password: '' });
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');
+  const [debug, setDebug] = useState('');
   
-  // Verificar se já está logado
-  useEffect(() => {
-    const token = localStorage.getItem('token');
-    const user = JSON.parse(localStorage.getItem('user') || '{}');
-    
-    if (token && user.role) {
-      // Redirecionar para dashboard de admin ou página inicial dependendo do papel
-      if (user.role === 'admin') {
-        navigate('/admin/dashboard');
-      } else {
-        navigate('/');
-      }
-    }
-  }, [navigate]);
-  
+  // Manipular alterações nos campos do formulário
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData({
@@ -123,13 +106,21 @@ const Login = () => {
     });
   };
   
+  // Função para adicionar informações de debug
+  const addDebug = (info) => {
+    setDebug(prev => prev + '\n' + info);
+  };
+  
+  // Manipular envio do formulário
   const handleSubmit = async (e) => {
     e.preventDefault();
     
+    // Limpar estados
+    setError('');
+    setDebug('Iniciando processo de login...');
+    setLoading(true);
+    
     try {
-      setLoading(true);
-      setError('');
-      
       // Validação básica
       if (!formData.email || !formData.password) {
         setError('Por favor, preencha todos os campos.');
@@ -137,45 +128,113 @@ const Login = () => {
         return;
       }
       
-      // Chamada para a API
-      const API_URL = process.env.REACT_APP_API_URL || 'http://localhost:5000/api';
-      const response = await axios.post(`${API_URL}/auth/login`, formData);
+      addDebug(`Tentando login com email: ${formData.email}`);
       
+      // Determinar a URL base da API - ajuste conforme necessário
+      let baseURL = '';
+      
+      // Se estamos em desenvolvimento (localhost)
+      if (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1') {
+        baseURL = 'http://localhost:5000/api';
+      } else {
+        // Para ambiente de produção (ajuste conforme sua configuração)
+        baseURL = '/api';
+      }
+      
+      const loginURL = `${baseURL}/auth/login`;
+      addDebug(`URL da API: ${loginURL}`);
+      
+      // Configuração da requisição
+      const config = {
+        headers: {
+          'Content-Type': 'application/json',
+        },
+      };
+      
+      addDebug('Enviando requisição...');
+      
+      // Fazer a requisição
+      const response = await axios.post(loginURL, formData, config);
+      
+      addDebug(`Resposta recebida: Status ${response.status}`);
+      
+      // Verificar se a resposta contém token
       if (response.data && response.data.token) {
-        // Salvar dados no localStorage
+        addDebug('Token recebido com sucesso!');
+        
+        // Salvar token no localStorage
         localStorage.setItem('token', response.data.token);
         
-        // Criar um objeto user sem o token para armazenar no localStorage
-        const user = {
+        // Salvar dados do usuário
+        const userData = {
           _id: response.data._id,
           name: response.data.name,
           email: response.data.email,
-          role: response.data.role
+          role: response.data.role || 'user'
         };
         
-        localStorage.setItem('user', JSON.stringify(user));
+        localStorage.setItem('user', JSON.stringify(userData));
+        
+        addDebug(`Papel do usuário: ${userData.role}`);
         
         // Redirecionar com base no papel
-        if (response.data.role === 'admin') {
+        if (userData.role === 'admin') {
+          addDebug('Redirecionando para dashboard de admin...');
           navigate('/admin/dashboard');
         } else {
+          addDebug('Redirecionando para página inicial...');
           navigate('/');
         }
+      } else {
+        // Resposta sem token
+        throw new Error('Resposta inválida: token não encontrado');
       }
     } catch (error) {
       console.error('Erro ao fazer login:', error);
-      setError(
-        error.response?.data?.message || 
-        'Falha ao fazer login. Verifique suas credenciais.'
-      );
+      
+      let errorMessage = 'Falha ao fazer login. Tente novamente.';
+      
+      // Adicionar detalhes específicos do erro para debug
+      addDebug(`ERRO: ${error.message}`);
+      
+      if (error.response) {
+        // O servidor respondeu com status diferente de 2xx
+        addDebug(`Status de erro: ${error.response.status}`);
+        addDebug(`Dados do erro: ${JSON.stringify(error.response.data, null, 2)}`);
+        
+        // Usar mensagem de erro do servidor, se existir
+        errorMessage = error.response.data?.message || errorMessage;
+      } else if (error.request) {
+        // A requisição foi feita mas não houve resposta
+        addDebug('Sem resposta do servidor. Verifique se o backend está rodando.');
+        errorMessage = 'Falha na comunicação com o servidor. Verifique sua conexão.';
+      }
+      
+      setError(errorMessage);
     } finally {
       setLoading(false);
     }
   };
   
+  // Função para limpar o formulário (para testes)
+  const handleClear = () => {
+    setFormData({ email: '', password: '' });
+    setError('');
+    setDebug('');
+  };
+  
+  // Função para preencher com credenciais de teste
+  const handleFillTest = () => {
+    setFormData({ 
+      email: 'admin@lusobites.com', 
+      password: 'Admin123!' 
+    });
+    setDebug('Credenciais de teste preenchidas.');
+  };
+  
   return (
     <LoginContainer>
-      <Title>Login</Title>
+      <Title>Login LusoBites</Title>
       
       {error && <ErrorMessage>{error}</ErrorMessage>}
       
@@ -207,11 +266,28 @@ const Login = () => {
         <Button type="submit" disabled={loading}>
           {loading ? 'Entrando...' : 'Entrar'}
         </Button>
+        
+        {/* Botões auxiliares para desenvolvimento - remova em produção */}
+        <div style={{ display: 'flex', gap: '0.5rem', marginTop: '1rem' }}>
+          <Button 
+            type="button" 
+            onClick={handleClear}
+            style={{ backgroundColor: '#6c757d', flex: 1 }}
+          >
+            Limpar
+          </Button>
+          <Button 
+            type="button" 
+            onClick={handleFillTest}
+            style={{ backgroundColor: '#28a745', flex: 1 }}
+          >
+            Teste
+          </Button>
+        </div>
       </Form>
       
-      <RegisterLink>
-        Não tem uma conta? <Link to="/register">Registre-se</Link>
-      </RegisterLink>
+      {/* Área de debug - remova em produção */}
+      {debug && <DebugInfo>{debug}</DebugInfo>}
     </LoginContainer>
   );
 };
