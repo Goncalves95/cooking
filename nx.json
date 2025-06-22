@@ -1,4 +1,8 @@
 {
   "$schema": "./node_modules/nx/schemas/nx-schema.json",
-  "nxCloudId": "68582918a461b8044d834d49"
+  "nxCloudId": "68582918a461b8044d834d49",
+  "projects": {
+    "lusobites-frontend": "lusobites/src",
+    "lusobites-backend": "lusobites/lusobites-backend"
+  }
 }
