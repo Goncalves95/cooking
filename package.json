@@ -1,5 +1,8 @@
 {
   "dependencies": {
     "react-helmet-async": "^2.0.5"
+  },
+  "devDependencies": {
+    "nx": "21.2.1"
   }
 }
