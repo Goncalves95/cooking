@@ -6,240 +6,336 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": ".nx/workspace-data/project-graph.json",
-        "hash": "11813044892609936500"
+        "file": "lusobites-backend/utils/fileUpload.js",
+        "hash": "1372200479467139966"
       },
       {
-        "file": "lusobites/src/pages/Admin/RecipeManagement.js",
-        "hash": "4559593013763239833"
+        "file": ".git/logs/refs/heads/main",
+        "hash": "3880575150474212914"
       },
       {
         "file": "lusobites/public/robots.txt",
         "hash": "2790380794362165217"
       },
       {
-        "file": "lusobites/src/components/Footer/Footer.js",
-        "hash": "15109621693812115981"
+        "file": ".git/objects/29/c1d5413d1ae9a1d0b6d722b150ba47530935a6",
+        "hash": "4200415371062745398"
       },
       {
-        "file": "lusobites/package.json",
-        "hash": "9670648422557081086"
+        "file": ".git/objects/e6/a9c4286c985c7a1412f7ea3036f4d611200c0c",
+        "hash": "18000445874857500507"
       },
       {
         "file": "lusobites/src/pages/Login/Login.js",
         "hash": "11503450226965683462"
       },
       {
-        "file": ".git/objects/3a/tmp_obj_GLE5MG",
-        "hash": "17724180722022318776"
+        "file": "lusobites/src/components/Footer/Footer.js",
+        "hash": "15109621693812115981"
       },
       {
-        "file": "lusobites-backend/models/Recipe.js",
-        "hash": "15883488510409670841"
-      },
-      {
-        "file": "lusobites/src/App.css",
-        "hash": "3472201094699472689"
-      },
-      {
-        "file": ".nx/workspace-data/file-map.json",
-        "hash": "1455302381603247313"
-      },
-      {
-        "file": "lusobites/src/pages/Admin/AddRecipe.js",
-        "hash": "9256585286873942815"
-      },
-      {
-        "file": "lusobites/src/components/Advertisement/AdBanner.js",
-        "hash": "12067642379399693820"
-      },
-      {
-        "file": "lusobites-backend/utils/fileUpload.js",
-        "hash": "1372200479467139966"
-      },
-      {
-        "file": "lusobites/src/components/ProtectedRoute.js",
-        "hash": "4098935240574058240"
-      },
-      {
-        "file": "lusobites/src/services/api.js",
-        "hash": "1676904864987938241"
-      },
-      {
-        "file": "workspace.json",
-        "hash": "11671878825409748006"
-      },
-      {
-        "file": "lusobites-backend/controllers/recipeController.js",
-        "hash": "1257720564676622424"
-      },
-      {
-        "file": "lusobites-backend/package.json",
-        "hash": "3002044122985571980"
-      },
-      {
-        "file": "lusobites-backend/routes/recipeRoutes.js",
-        "hash": "2761251259890884717"
-      },
-      {
-        "file": "lusobites/README.md",
-        "hash": "17524295600495787358"
-      },
-      {
-        "file": "lusobites/src/index.js",
-        "hash": "2247195792079615155"
-      },
-      {
-        "file": "lusobites/src/pages/Admin/EditRecipe.js",
-        "hash": "2348928478763303336"
-      },
-      {
-        "file": "lusobites/src/logo.svg",
-        "hash": "5137778160416929466"
-      },
-      {
-        "file": "lusobites-backend/server.js",
-        "hash": "6895498523893833906"
-      },
-      {
-        "file": "lusobites/src/pages/RecipeDetail/RecipeDetail.js",
-        "hash": "15159305407975047959"
-      },
-      {
-        "file": "lusobites/src/App.js",
-        "hash": "14297442143356412532"
-      },
-      {
-        "file": "lusobites-backend/models/User.js",
-        "hash": "8332997118072023225"
-      },
-      {
-        "file": "lusobites/src/layouts/MainLayout.js",
-        "hash": "11874044935281107932"
-      },
-      {
-        "file": "lusobites-backend/.env",
-        "hash": "7801549838920097678"
-      },
-      {
-        "file": ".DS_Store",
-        "hash": "10084785287923073833"
-      },
-      {
-        "file": ".git/index.lock",
-        "hash": "3244421341483603138"
-      },
-      {
-        "file": "lusobites/public/manifest.json",
-        "hash": "1447645250373428393"
-      },
-      {
-        "file": "lusobites-backend/routes/authRoutes.js",
-        "hash": "5439749641098383661"
-      },
-      {
-        "file": "package-lock.json",
-        "hash": "12542796823088174788"
-      },
-      {
-        "file": "lusobites/src/App.test.js",
-        "hash": "14776661775854159295"
-      },
-      {
-        "file": "lusobites-backend/controllers/authController.js",
-        "hash": "5099506043951913007"
-      },
-      {
-        "file": "lusobites/src/layouts/AdminLayout.js",
-        "hash": "4172211468510061856"
-      },
-      {
-        "file": ".nx/workspace-data/source-maps.json",
-        "hash": "1389868326933519382"
-      },
-      {
-        "file": "package.json",
-        "hash": "424902847775367847"
+        "file": ".git/objects/3d/ccd10d788fc9b71e2b7e89e95100bde9d856f6",
+        "hash": "878356809677414873"
       },
       {
         "file": "lusobites/src/components/Navbar/Navbar.js",
         "hash": "7564307752109863343"
       },
       {
-        "file": "lusobites/public/index.html",
-        "hash": "14655254136065019895"
+        "file": ".git/objects/b6/eebedadf98f384e7854282ffa4d29a45c5c9c7",
+        "hash": "6883768444827592447"
       },
       {
-        "file": "nx.json",
-        "hash": "11663413649820915536"
-      },
-      {
-        "file": "lusobites/src/reportWebVitals.js",
-        "hash": "8937667725995285050"
-      },
-      {
-        "file": "lusobites/src/components/RecipeCard/RecipeCard.js",
-        "hash": "17090040717058101792"
-      },
-      {
-        "file": "lusobites-backend/middlewares/auth.js",
-        "hash": "16765340866663666864"
-      },
-      {
-        "file": "lusobites-backend/config/db.js",
-        "hash": "1868853794876295298"
-      },
-      {
-        "file": "lusobites/src/setupTests.js",
-        "hash": "16903885983588411080"
-      },
-      {
-        "file": ".vscode/settings.json",
-        "hash": "15113672247534006936"
-      },
-      {
-        "file": "lusobites/public/favicon.ico",
-        "hash": "17631017467472813621"
-      },
-      {
-        "file": "lusobites-backend/middlewares/authMiddleware.js",
-        "hash": "6759498763628670577"
-      },
-      {
-        "file": "lusobites/public/logo192.png",
-        "hash": "17631017467472813621"
-      },
-      {
-        "file": "lusobites/src/pages/Home/Home.js",
-        "hash": "5198837567278438853"
+        "file": ".git/objects/ea/e453f2d3c76cdfe1421f7e764e0ef8fae24fe7",
+        "hash": "16310729304567850344"
       },
       {
         "file": "lusobites/package-lock.json",
         "hash": "12711663209092926646"
       },
       {
-        "file": "lusobites/src/pages/Admin/Dashboard.js",
-        "hash": "10116000989195945944"
+        "file": ".git/index.lock",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "nx.json",
+        "hash": "11663413649820915536"
+      },
+      {
+        "file": ".git/objects/43/89070df343d905cdc968bd54efdcd4b7238907",
+        "hash": "1939422340844250969"
+      },
+      {
+        "file": "lusobites/public/logo192.png",
+        "hash": "17631017467472813621"
+      },
+      {
+        "file": "lusobites-backend/.env",
+        "hash": "7801549838920097678"
+      },
+      {
+        "file": "lusobites/src/logo.svg",
+        "hash": "5137778160416929466"
+      },
+      {
+        "file": "lusobites/src/App.css",
+        "hash": "3472201094699472689"
+      },
+      {
+        "file": "lusobites-backend/routes/recipeRoutes.js",
+        "hash": "2761251259890884717"
+      },
+      {
+        "file": "lusobites-backend/models/User.js",
+        "hash": "8332997118072023225"
+      },
+      {
+        "file": "lusobites-backend/controllers/authController.js",
+        "hash": "5099506043951913007"
+      },
+      {
+        "file": "lusobites/src/components/Advertisement/AdBanner.js",
+        "hash": "12067642379399693820"
+      },
+      {
+        "file": "lusobites/src/setupTests.js",
+        "hash": "16903885983588411080"
+      },
+      {
+        "file": ".git/objects/f5/1bc4d9de0f7df3e15271d89078d292e205e9b0",
+        "hash": "17511897288322522620"
+      },
+      {
+        "file": ".git/objects/bd/760cf78a64802621b2d95e35d4fbceddaec756",
+        "hash": "1757993830848697891"
       },
       {
         "file": "lusobites-backend/package-lock.json",
         "hash": "7809683894173458198"
       },
       {
-        "file": "lusobites/public/logo512.png",
+        "file": "lusobites/src/App.test.js",
+        "hash": "14776661775854159295"
+      },
+      {
+        "file": "package.json",
+        "hash": "424902847775367847"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "12542796823088174788"
+      },
+      {
+        "file": "lusobites/src/components/ProtectedRoute.js",
+        "hash": "4098935240574058240"
+      },
+      {
+        "file": "lusobites/src/index.js",
+        "hash": "2247195792079615155"
+      },
+      {
+        "file": "lusobites-backend/middlewares/authMiddleware.js",
+        "hash": "6759498763628670577"
+      },
+      {
+        "file": "lusobites/public/manifest.json",
+        "hash": "1447645250373428393"
+      },
+      {
+        "file": "lusobites/public/favicon.ico",
         "hash": "17631017467472813621"
       },
       {
-        "file": "lusobites/.gitignore",
-        "hash": "6455411552073570477"
+        "file": ".git/objects/5b/e43e6904877e1b02dd080b60329ed1b7c05faa",
+        "hash": "11238879732784185459"
+      },
+      {
+        "file": ".git/objects/3a/9c46e0f12f690c98d38f861169d703ce4d8874",
+        "hash": "14618741849942279258"
+      },
+      {
+        "file": ".git/index",
+        "hash": "3730222996985401336"
+      },
+      {
+        "file": ".git/objects/af/3d3614615b1b514596a419ea105fdcf705f1b9",
+        "hash": "3917975367395233010"
       },
       {
         "file": "lusobites/src/index.css",
         "hash": "14056909652331273425"
       },
       {
+        "file": ".git/logs/HEAD",
+        "hash": "3880575150474212914"
+      },
+      {
+        "file": "lusobites/public/logo512.png",
+        "hash": "17631017467472813621"
+      },
+      {
+        "file": "lusobites/src/pages/Admin/AddRecipe.js",
+        "hash": "9256585286873942815"
+      },
+      {
+        "file": "lusobites/src/reportWebVitals.js",
+        "hash": "8937667725995285050"
+      },
+      {
+        "file": ".git/refs/heads/main",
+        "hash": "11988911802983290791"
+      },
+      {
+        "file": "lusobites-backend/config/db.js",
+        "hash": "1868853794876295298"
+      },
+      {
+        "file": "lusobites/src/pages/Admin/RecipeManagement.js",
+        "hash": "4559593013763239833"
+      },
+      {
         "file": "lusobites-backend/utils/generateToken.js",
         "hash": "1805889188245769881"
+      },
+      {
+        "file": ".vscode/settings.json",
+        "hash": "15113672247534006936"
+      },
+      {
+        "file": "workspace.json",
+        "hash": "11671878825409748006"
+      },
+      {
+        "file": "lusobites/src/pages/Admin/EditRecipe.js",
+        "hash": "2348928478763303336"
+      },
+      {
+        "file": ".git/objects/f1/c10c7a1f31aca45adfa6a20bb5d6d57bf7f40c",
+        "hash": "15375635472293682831"
+      },
+      {
+        "file": ".git/objects/98/9f4e553cefda5edb143b120e685875d5ceda2e",
+        "hash": "12308243018517509582"
+      },
+      {
+        "file": "lusobites/package.json",
+        "hash": "9670648422557081086"
+      },
+      {
+        "file": ".git/objects/94/7b904f5299eac9cf21f7944c6de598b0bb2d35",
+        "hash": "2722194823866610060"
+      },
+      {
+        "file": ".nx/workspace-data/project-graph.json",
+        "hash": "8017647824019661500"
+      },
+      {
+        "file": "lusobites/src/layouts/AdminLayout.js",
+        "hash": "4172211468510061856"
+      },
+      {
+        "file": ".git/objects/a0/efa2f62e46a520176d557ff9a8ce07ea34a13e",
+        "hash": "14634985223193747599"
+      },
+      {
+        "file": ".DS_Store",
+        "hash": "10084785287923073833"
+      },
+      {
+        "file": ".nx/workspace-data/file-map.json",
+        "hash": "15311178940546417563"
+      },
+      {
+        "file": "lusobites-backend/middlewares/auth.js",
+        "hash": "16765340866663666864"
+      },
+      {
+        "file": "lusobites/README.md",
+        "hash": "17524295600495787358"
+      },
+      {
+        "file": "lusobites/src/App.js",
+        "hash": "14297442143356412532"
+      },
+      {
+        "file": "lusobites/src/pages/Admin/Dashboard.js",
+        "hash": "10116000989195945944"
+      },
+      {
+        "file": ".git/objects/00/9f4e776b55c2ec089cb3426c75cda1a3897e19",
+        "hash": "15429033785699184819"
+      },
+      {
+        "file": ".nx/workspace-data/source-maps.json",
+        "hash": "1389868326933519382"
+      },
+      {
+        "file": "lusobites-backend/controllers/recipeController.js",
+        "hash": "1257720564676622424"
+      },
+      {
+        "file": ".git/objects/41/3ed87f547b9564365076bd11d239b1426cb24a",
+        "hash": "15955938856842958014"
+      },
+      {
+        "file": "lusobites-backend/package.json",
+        "hash": "3002044122985571980"
+      },
+      {
+        "file": ".git/objects/e0/ff84512f57e24ecdc666b6efd71051a4f219cb",
+        "hash": "9208028770742024353"
+      },
+      {
+        "file": "lusobites/src/services/api.js",
+        "hash": "1676904864987938241"
+      },
+      {
+        "file": "lusobites/src/layouts/MainLayout.js",
+        "hash": "11874044935281107932"
+      },
+      {
+        "file": "lusobites/src/pages/RecipeDetail/RecipeDetail.js",
+        "hash": "15159305407975047959"
+      },
+      {
+        "file": ".git/objects/03/d72078e4f122a474929174996175414a75fdba",
+        "hash": "3602840302841375668"
+      },
+      {
+        "file": "lusobites/src/pages/Home/Home.js",
+        "hash": "5198837567278438853"
+      },
+      {
+        "file": "lusobites-backend/server.js",
+        "hash": "6895498523893833906"
+      },
+      {
+        "file": "lusobites/public/index.html",
+        "hash": "14655254136065019895"
+      },
+      {
+        "file": ".git/objects/20/c1bfb4a5397545259eef1a52cf70a127103382",
+        "hash": "2230144696824236700"
+      },
+      {
+        "file": "lusobites/src/components/RecipeCard/RecipeCard.js",
+        "hash": "17090040717058101792"
+      },
+      {
+        "file": ".git/COMMIT_EDITMSG",
+        "hash": "12266134030495513949"
+      },
+      {
+        "file": "lusobites-backend/routes/authRoutes.js",
+        "hash": "5439749641098383661"
+      },
+      {
+        "file": "lusobites-backend/models/Recipe.js",
+        "hash": "15883488510409670841"
+      },
+      {
+        "file": "lusobites/.gitignore",
+        "hash": "6455411552073570477"
       }
     ],
     "projectFileMap": {}
