@@ -11725,3 +11725,1376 @@ Error: write EPIPE
 [NX v21.2.1 Daemon Server] - 2025-06-22T16:04:52.759Z - [REQUEST]: .nx/workspace-data/file-map.json,.nx/workspace-data/source-maps.json,.nx/workspace-data/project-graph.json
 [NX v21.2.1 Daemon Server] - 2025-06-22T16:04:52.759Z - [REQUEST]: .nx/workspace-data/project-graph.json~bc773c8d,.nx/workspace-data/source-maps.json~bc773c8d,.nx/workspace-data/file-map.json~bc773c8d
 [NX v21.2.1 Daemon Server] - 2025-06-22T16:04:52.760Z - Time taken for 'hash changed files from watcher' 0.39885199069976807ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:52.763Z - Time taken for 'build-project-configs' 2.0771000385284424ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:52.767Z - [SYNC]: collect registered sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:52.767Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:52.767Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:52.767Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:52.767Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:52.767Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:52.767Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:52.767Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:52.767Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:52.767Z - Time taken for 'total execution time for createProjectGraph()' 2.411660075187683ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:52.809Z - [WATCHER]: 11 file(s) created or restored, 0 file(s) modified, 11 file(s) deleted
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:52.810Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:52.810Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:52.810Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:52.810Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:52.810Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:52.810Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:52.810Z - Time taken for 'changed-projects' 0.021356940269470215ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:52.911Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:52.911Z - [REQUEST]: .git/objects/78/550a0f8d32b6fe0a73ac83a3a79064eeb76ae2,.git/objects/5a/2c786bdc9d46b4cdb16534e4abb8a17fa07d26,.git/objects/29/6fb9e809f86296d2eea887933e2398e61c3528,.git/objects/f0/6def0473738fdb0d610dc6cbcec1e1f168d6c7,.nx/workspace-data/source-maps.json,.nx/workspace-data/project-graph.json,.git/objects/44/6e946a372771ee8818446db65ec7dce49bd7ff,.nx/workspace-data/file-map.json,.git/index,.git/objects/d0/2dd23e464d8474e29faf80fbc45431d0802b78,.git/objects/6f/0984e3add433bdf30020108eadff184d96837a
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:52.911Z - [REQUEST]: .git/objects/29/tmp_obj_pjYEFb,.git/objects/78/tmp_obj_2XCHGu,.git/objects/44/tmp_obj_eH064d,.nx/workspace-data/source-maps.json~34fe4a69,.git/index.lock,.git/objects/f0/tmp_obj_khTtWq,.git/objects/d0/tmp_obj_hlgkyr,.nx/workspace-data/file-map.json~34fe4a69,.nx/workspace-data/project-graph.json~34fe4a69,.git/objects/5a/tmp_obj_9AFX3R,.git/objects/6f/tmp_obj_ktli53
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:52.912Z - Time taken for 'hash changed files from watcher' 1.1716090440750122ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:52.915Z - Time taken for 'build-project-configs' 2.042127013206482ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:52.919Z - [SYNC]: collect registered sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:52.919Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:52.919Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:52.920Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:52.920Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:52.920Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:52.920Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:52.920Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:52.920Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:52.920Z - Time taken for 'total execution time for createProjectGraph()' 2.6670589447021484ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:52.982Z - [WATCHER]: 3 file(s) created or restored, 0 file(s) modified, 3 file(s) deleted
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:52.982Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:52.982Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:52.982Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:52.982Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:52.982Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:52.982Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:52.984Z - Time taken for 'changed-projects' 0.013614058494567871ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:53.084Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:53.084Z - [REQUEST]: .nx/workspace-data/project-graph.json,.nx/workspace-data/source-maps.json,.nx/workspace-data/file-map.json
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:53.084Z - [REQUEST]: .nx/workspace-data/project-graph.json~164ef33d,.nx/workspace-data/source-maps.json~164ef33d,.nx/workspace-data/file-map.json~164ef33d
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:53.086Z - Time taken for 'hash changed files from watcher' 0.7158459424972534ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:53.090Z - Time taken for 'build-project-configs' 2.8162789344787598ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:53.095Z - [SYNC]: collect registered sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:53.095Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:53.095Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:53.095Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:53.095Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:53.095Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:53.095Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:53.095Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:53.095Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:53.095Z - Time taken for 'total execution time for createProjectGraph()' 3.5584980249404907ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:53.157Z - [WATCHER]: 3 file(s) created or restored, 0 file(s) modified, 3 file(s) deleted
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:53.158Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:53.158Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:53.158Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:53.158Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:53.158Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:53.158Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:53.158Z - Time taken for 'changed-projects' 0.019381999969482422ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:53.259Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:53.259Z - [REQUEST]: .nx/workspace-data/source-maps.json,.nx/workspace-data/file-map.json,.nx/workspace-data/project-graph.json
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:53.259Z - [REQUEST]: .nx/workspace-data/source-maps.json~99dc4f76,.nx/workspace-data/project-graph.json~99dc4f76,.nx/workspace-data/file-map.json~99dc4f76
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:53.261Z - Time taken for 'hash changed files from watcher' 0.6423759460449219ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:53.265Z - Time taken for 'build-project-configs' 2.4857919216156006ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:53.269Z - [SYNC]: collect registered sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:53.269Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:53.269Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:53.269Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:53.269Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:53.269Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:53.269Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:53.269Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:53.269Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:53.269Z - Time taken for 'total execution time for createProjectGraph()' 2.765313982963562ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:53.330Z - [WATCHER]: 3 file(s) created or restored, 0 file(s) modified, 3 file(s) deleted
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:53.331Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:53.331Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:53.331Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:53.331Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:53.331Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:53.331Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:53.331Z - Time taken for 'changed-projects' 0.018527984619140625ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:53.431Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:53.431Z - [REQUEST]: .nx/workspace-data/file-map.json,.nx/workspace-data/project-graph.json,.nx/workspace-data/source-maps.json
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:53.431Z - [REQUEST]: .nx/workspace-data/source-maps.json~56d1fdb2,.nx/workspace-data/project-graph.json~56d1fdb2,.nx/workspace-data/file-map.json~56d1fdb2
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:53.433Z - Time taken for 'hash changed files from watcher' 0.4138230085372925ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:53.436Z - Time taken for 'build-project-configs' 2.303109049797058ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:53.440Z - [SYNC]: collect registered sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:53.440Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:53.440Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:53.440Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:53.440Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:53.440Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:53.440Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:53.440Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:53.440Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:53.440Z - Time taken for 'total execution time for createProjectGraph()' 2.5294610261917114ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:53.504Z - [WATCHER]: 3 file(s) created or restored, 0 file(s) modified, 3 file(s) deleted
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:53.504Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:53.505Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:53.505Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:53.505Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:53.505Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 1.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:53.505Z - Handled FILE-WATCH-CHANGED. Handling time: 1. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:53.505Z - Time taken for 'changed-projects' 0.019662022590637207ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:53.605Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:53.606Z - [REQUEST]: .nx/workspace-data/file-map.json,.nx/workspace-data/project-graph.json,.nx/workspace-data/source-maps.json
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:53.606Z - [REQUEST]: .nx/workspace-data/project-graph.json~eb775e48,.nx/workspace-data/source-maps.json~eb775e48,.nx/workspace-data/file-map.json~eb775e48
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:53.608Z - Time taken for 'hash changed files from watcher' 0.6054229736328125ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:53.611Z - Time taken for 'build-project-configs' 2.312380075454712ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:53.615Z - [SYNC]: collect registered sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:53.615Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:53.615Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:53.615Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:53.616Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:53.616Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:53.616Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:53.616Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 1.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:53.616Z - Handled FILE-WATCH-CHANGED. Handling time: 1. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:53.616Z - Time taken for 'total execution time for createProjectGraph()' 2.9741560220718384ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:53.677Z - [WATCHER]: 3 file(s) created or restored, 0 file(s) modified, 3 file(s) deleted
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:53.678Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:53.678Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:53.678Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:53.678Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:53.678Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:53.678Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:53.678Z - Time taken for 'changed-projects' 0.012775063514709473ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:53.778Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:53.779Z - [REQUEST]: .nx/workspace-data/file-map.json,.nx/workspace-data/project-graph.json,.nx/workspace-data/source-maps.json
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:53.779Z - [REQUEST]: .nx/workspace-data/source-maps.json~2e5e5f27,.nx/workspace-data/project-graph.json~2e5e5f27,.nx/workspace-data/file-map.json~2e5e5f27
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:53.781Z - Time taken for 'hash changed files from watcher' 0.5084429979324341ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:53.784Z - Time taken for 'build-project-configs' 2.254752993583679ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:53.788Z - [SYNC]: collect registered sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:53.788Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:53.788Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:53.788Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:53.788Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:53.788Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:53.788Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:53.788Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:53.788Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:53.788Z - Time taken for 'total execution time for createProjectGraph()' 2.999719023704529ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:53.851Z - [WATCHER]: 3 file(s) created or restored, 0 file(s) modified, 3 file(s) deleted
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:53.851Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:53.851Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:53.851Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:53.851Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:53.851Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:53.851Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:53.851Z - Time taken for 'changed-projects' 0.018994927406311035ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:53.923Z - Established a connection. Number of open connections: 5
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:53.924Z - [REQUEST]: Client Request for Project Graph Received
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:53.924Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:53.925Z - [REQUEST]: .nx/workspace-data/file-map.json,.nx/workspace-data/project-graph.json,.nx/workspace-data/source-maps.json
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:53.925Z - [REQUEST]: .nx/workspace-data/source-maps.json~5eea7d37,.nx/workspace-data/project-graph.json~5eea7d37,.nx/workspace-data/file-map.json~5eea7d37
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:53.927Z - Time taken for 'hash changed files from watcher' 0.3876340389251709ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:53.927Z - Closed a connection. Number of open connections: 4
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:53.929Z - Time taken for 'build-project-configs' 2.1084420680999756ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:53.933Z - [SYNC]: collect registered sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:53.933Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:53.934Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:53.934Z - [REQUEST]: Responding to the client. project-graph
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:53.934Z - Time taken for 'total for creating and serializing project graph' 9.772722005844116ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:53.935Z - Done responding to the client project-graph
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:53.935Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 10. Response time: 1.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:53.936Z - [REQUEST]: Responding to the client. handleContextFileData
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:53.936Z - Done responding to the client handleContextFileData
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:53.936Z - Handled GET_CONTEXT_FILE_DATA. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:53.936Z - Closed a connection. Number of open connections: 3
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:53.947Z - Closed a connection. Number of open connections: 2
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:53.948Z - Established a connection. Number of open connections: 3
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:53.948Z - Established a connection. Number of open connections: 4
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:53.948Z - Closed a connection. Number of open connections: 3
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:53.949Z - [REQUEST]: Client Request for Project Graph Received
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:53.949Z - [REQUEST]: Responding to the client. project-graph
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:53.949Z - Time taken for 'total for creating and serializing project graph' 0.15621495246887207ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:53.949Z - Done responding to the client project-graph
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:53.949Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:53.950Z - [REQUEST]: Client Request for Project Graph Received
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:53.950Z - [REQUEST]: Responding to the client. project-graph
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:53.950Z - Time taken for 'total for creating and serializing project graph' 0.1573469638824463ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:53.951Z - Done responding to the client project-graph
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:53.951Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 1.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:53.951Z - Established a connection. Number of open connections: 4
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:53.995Z - [WATCHER]: 3 file(s) created or restored, 0 file(s) modified, 3 file(s) deleted
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:53.996Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:53.996Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:53.996Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:53.996Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:53.996Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:53.996Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:53.996Z - Time taken for 'changed-projects' 0.019752025604248047ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:54.096Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:54.096Z - [REQUEST]: .nx/workspace-data/source-maps.json,.nx/workspace-data/file-map.json,.nx/workspace-data/project-graph.json
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:54.096Z - [REQUEST]: .nx/workspace-data/file-map.json~4cf7be78,.nx/workspace-data/project-graph.json~4cf7be78,.nx/workspace-data/source-maps.json~4cf7be78
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:54.098Z - Time taken for 'hash changed files from watcher' 0.44160890579223633ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:54.101Z - Time taken for 'build-project-configs' 2.4842441082000732ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:54.105Z - [SYNC]: collect registered sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:54.105Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:54.105Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:54.105Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:54.105Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:54.106Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:54.106Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:54.106Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 1.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:54.106Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 1.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:54.106Z - Time taken for 'total execution time for createProjectGraph()' 2.66252601146698ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:54.168Z - [WATCHER]: 3 file(s) created or restored, 0 file(s) modified, 3 file(s) deleted
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:54.168Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:54.168Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:54.168Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:54.168Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:54.168Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:54.168Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:54.168Z - Time taken for 'changed-projects' 0.025534987449645996ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:54.269Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:54.269Z - [REQUEST]: .nx/workspace-data/source-maps.json,.nx/workspace-data/project-graph.json,.nx/workspace-data/file-map.json
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:54.269Z - [REQUEST]: .nx/workspace-data/source-maps.json~f6bed3c9,.nx/workspace-data/project-graph.json~f6bed3c9,.nx/workspace-data/file-map.json~f6bed3c9
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:54.271Z - Time taken for 'hash changed files from watcher' 0.5448589324951172ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:54.274Z - Time taken for 'build-project-configs' 2.638110041618347ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:54.279Z - [SYNC]: collect registered sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:54.279Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:54.279Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:54.279Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:54.279Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:54.279Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:54.279Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:54.279Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:54.279Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:54.279Z - Time taken for 'total execution time for createProjectGraph()' 3.0918149948120117ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:54.340Z - [WATCHER]: 3 file(s) created or restored, 0 file(s) modified, 3 file(s) deleted
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:54.341Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:54.341Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:54.341Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:54.341Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:54.341Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:54.341Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:54.341Z - Time taken for 'changed-projects' 0.0194319486618042ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:54.442Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:54.442Z - [REQUEST]: .nx/workspace-data/file-map.json,.nx/workspace-data/project-graph.json,.nx/workspace-data/source-maps.json
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:54.442Z - [REQUEST]: .nx/workspace-data/file-map.json~13197d52,.nx/workspace-data/project-graph.json~13197d52,.nx/workspace-data/source-maps.json~13197d52
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:54.444Z - Time taken for 'hash changed files from watcher' 0.7019939422607422ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:54.448Z - Time taken for 'build-project-configs' 3.0046019554138184ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:54.452Z - [SYNC]: collect registered sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:54.453Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:54.453Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:54.453Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:54.453Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:54.453Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:54.453Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:54.453Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:54.453Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:54.453Z - Time taken for 'total execution time for createProjectGraph()' 3.019110083580017ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:54.515Z - [WATCHER]: 3 file(s) created or restored, 0 file(s) modified, 3 file(s) deleted
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:54.515Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:54.515Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:54.516Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:54.516Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:54.516Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 1.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:54.516Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 1.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:54.516Z - Time taken for 'changed-projects' 0.01903092861175537ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:54.617Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:54.617Z - [REQUEST]: .nx/workspace-data/file-map.json,.nx/workspace-data/source-maps.json,.nx/workspace-data/project-graph.json
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:54.618Z - [REQUEST]: .nx/workspace-data/project-graph.json~bfd474b4,.nx/workspace-data/source-maps.json~bfd474b4,.nx/workspace-data/file-map.json~bfd474b4
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:54.620Z - Time taken for 'hash changed files from watcher' 0.7514899969100952ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:54.623Z - Time taken for 'build-project-configs' 2.5830999612808228ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:54.627Z - [SYNC]: collect registered sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:54.627Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:54.627Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:54.627Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:54.627Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:54.627Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:54.627Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:54.627Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:54.627Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:54.627Z - Time taken for 'total execution time for createProjectGraph()' 2.7102400064468384ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:54.691Z - [WATCHER]: 3 file(s) created or restored, 0 file(s) modified, 3 file(s) deleted
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:54.691Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:54.691Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:54.691Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:54.691Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:54.691Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:54.691Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:54.691Z - Time taken for 'changed-projects' 0.02004396915435791ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:54.792Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:54.792Z - [REQUEST]: .nx/workspace-data/source-maps.json,.nx/workspace-data/project-graph.json,.nx/workspace-data/file-map.json
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:54.792Z - [REQUEST]: .nx/workspace-data/source-maps.json~52925ffc,.nx/workspace-data/file-map.json~52925ffc,.nx/workspace-data/project-graph.json~52925ffc
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:54.794Z - Time taken for 'hash changed files from watcher' 0.5211659669876099ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:54.797Z - Time taken for 'build-project-configs' 2.8495819568634033ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:54.801Z - [SYNC]: collect registered sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:54.802Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:54.802Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:54.802Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:54.802Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:54.802Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:54.802Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:54.802Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:54.802Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:54.802Z - Time taken for 'total execution time for createProjectGraph()' 2.588858962059021ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:54.864Z - [WATCHER]: 3 file(s) created or restored, 0 file(s) modified, 3 file(s) deleted
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:54.865Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:54.865Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:54.865Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:54.865Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:54.865Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:54.865Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:54.865Z - Time taken for 'changed-projects' 0.013733983039855957ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:54.965Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:54.965Z - [REQUEST]: .nx/workspace-data/project-graph.json,.nx/workspace-data/source-maps.json,.nx/workspace-data/file-map.json
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:54.965Z - [REQUEST]: .nx/workspace-data/project-graph.json~42c6415f,.nx/workspace-data/source-maps.json~42c6415f,.nx/workspace-data/file-map.json~42c6415f
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:54.967Z - Time taken for 'hash changed files from watcher' 0.32743704319000244ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:54.969Z - Time taken for 'build-project-configs' 1.9146509170532227ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:54.973Z - [SYNC]: collect registered sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:54.973Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:54.973Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:54.973Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:54.973Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:54.973Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:54.974Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:54.974Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 1.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:54.974Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 1.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:54.974Z - Time taken for 'total execution time for createProjectGraph()' 2.643615961074829ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:55.034Z - [WATCHER]: 3 file(s) created or restored, 0 file(s) modified, 3 file(s) deleted
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:55.034Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:55.035Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:55.035Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:55.035Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:55.035Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 1.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:55.035Z - Handled FILE-WATCH-CHANGED. Handling time: 1. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:55.035Z - Time taken for 'changed-projects' 0.014470934867858887ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:55.139Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:55.139Z - [REQUEST]: .nx/workspace-data/source-maps.json,.nx/workspace-data/project-graph.json,.nx/workspace-data/file-map.json
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:55.139Z - [REQUEST]: .nx/workspace-data/source-maps.json~1002e400,.nx/workspace-data/project-graph.json~1002e400,.nx/workspace-data/file-map.json~1002e400
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:55.141Z - Time taken for 'hash changed files from watcher' 0.33622097969055176ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:55.143Z - Time taken for 'build-project-configs' 1.7850970029830933ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:55.147Z - [SYNC]: collect registered sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:55.147Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:55.147Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:55.147Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:55.147Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:55.147Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:55.147Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:55.147Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:55.147Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:55.147Z - Time taken for 'total execution time for createProjectGraph()' 2.5638070106506348ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:55.210Z - [WATCHER]: 3 file(s) created or restored, 0 file(s) modified, 3 file(s) deleted
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:55.210Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:55.211Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:55.211Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:55.211Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:55.211Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 1.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:55.211Z - Handled FILE-WATCH-CHANGED. Handling time: 1. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:55.211Z - Time taken for 'changed-projects' 0.01556706428527832ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:55.311Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:55.312Z - [REQUEST]: .nx/workspace-data/file-map.json,.nx/workspace-data/project-graph.json,.nx/workspace-data/source-maps.json
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:55.312Z - [REQUEST]: .nx/workspace-data/file-map.json~feeb153f,.nx/workspace-data/project-graph.json~feeb153f,.nx/workspace-data/source-maps.json~feeb153f
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:55.314Z - Time taken for 'hash changed files from watcher' 0.6329890489578247ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:55.317Z - Time taken for 'build-project-configs' 2.5174739360809326ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:55.321Z - [SYNC]: collect registered sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:55.321Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:55.321Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:55.322Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:55.322Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:55.322Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:55.322Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:55.322Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:55.322Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:55.322Z - Time taken for 'total execution time for createProjectGraph()' 2.9034860134124756ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:55.383Z - [WATCHER]: 3 file(s) created or restored, 0 file(s) modified, 3 file(s) deleted
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:55.383Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:55.383Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:55.383Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:55.383Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:55.383Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:55.383Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:55.383Z - Time taken for 'changed-projects' 0.01579606533050537ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:55.483Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:55.483Z - [REQUEST]: .nx/workspace-data/project-graph.json,.nx/workspace-data/source-maps.json,.nx/workspace-data/file-map.json
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:55.483Z - [REQUEST]: .nx/workspace-data/source-maps.json~64ed6dab,.nx/workspace-data/file-map.json~64ed6dab,.nx/workspace-data/project-graph.json~64ed6dab
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:55.484Z - Time taken for 'hash changed files from watcher' 0.26350903511047363ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:55.487Z - Time taken for 'build-project-configs' 1.870055913925171ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:55.491Z - [SYNC]: collect registered sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:55.491Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:55.491Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:55.491Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:55.491Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:55.491Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:55.491Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:55.491Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:55.491Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:55.491Z - Time taken for 'total execution time for createProjectGraph()' 2.641313910484314ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:55.554Z - [WATCHER]: 3 file(s) created or restored, 0 file(s) modified, 3 file(s) deleted
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:55.554Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:55.554Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:55.555Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:55.555Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:55.555Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 1.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:55.555Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 1.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:55.555Z - Time taken for 'changed-projects' 0.019508957862854004ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:55.653Z - [WATCHER]: 8 file(s) created or restored, 3 file(s) modified, 10 file(s) deleted
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:55.653Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:55.653Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:55.653Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:55.653Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:55.653Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:55.653Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:55.653Z - Time taken for 'changed-projects' 0.09348094463348389ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:55.656Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:55.656Z - [REQUEST]: .nx/workspace-data/project-graph.json,.nx/workspace-data/source-maps.json,.nx/workspace-data/file-map.json,.git/objects/5b/21be623cc9224a815ecb7db9036ff74ef59675,.git/objects/73/bf2c405ea389f1180d61838cff6cdb040da1c8,.git/objects/4f/c33be2879aab793e2a05b977cbe853806d7e8f,.git/refs/heads/main,.git/objects/0d/c3bd6b99e6bffb846bc59709cd9b9bfbd16760,.git/objects/de/2b3c1a77cab85de9318d88f73c2ecaf780ced9,.git/index,.git/objects/37/904cd9f610e638ec5df9a69d9aebf39790bc33,.git/logs/refs/heads/main,.git/logs/HEAD,.git/COMMIT_EDITMSG
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:55.656Z - [REQUEST]: .nx/workspace-data/project-graph.json~fb0d8ac2,.nx/workspace-data/source-maps.json~fb0d8ac2,.nx/workspace-data/file-map.json~fb0d8ac2,.git/objects/73/tmp_obj_5LWe3i,.git/refs/heads/main.lock,.git/objects/maintenance.lock,.git/objects/4f/tmp_obj_oEDNLY,.git/objects/5b/tmp_obj_8xY6PJ,.git/objects/37/tmp_obj_TzT8Zm,.git/objects/0d/tmp_obj_EedC7L,.git/HEAD.lock,.git/objects/de/tmp_obj_IDmERW,.git/index.lock
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:55.658Z - Time taken for 'hash changed files from watcher' 1.0049200057983398ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:55.661Z - Time taken for 'build-project-configs' 2.249719023704529ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:55.665Z - [SYNC]: collect registered sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:55.666Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:55.666Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:55.666Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:55.666Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:55.666Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:55.666Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:55.666Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:55.666Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:55.666Z - Time taken for 'total execution time for createProjectGraph()' 3.1896549463272095ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:55.728Z - [WATCHER]: 3 file(s) created or restored, 0 file(s) modified, 3 file(s) deleted
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:55.728Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:55.728Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:55.728Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:55.728Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:55.728Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:55.728Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:55.728Z - Time taken for 'changed-projects' 0.013174057006835938ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:55.828Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:55.829Z - [REQUEST]: .nx/workspace-data/file-map.json,.nx/workspace-data/project-graph.json,.nx/workspace-data/source-maps.json
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:55.829Z - [REQUEST]: .nx/workspace-data/source-maps.json~ed234ce5,.nx/workspace-data/file-map.json~ed234ce5,.nx/workspace-data/project-graph.json~ed234ce5
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:55.889Z - Time taken for 'hash changed files from watcher' 0.3591740131378174ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:55.894Z - Time taken for 'build-project-configs' 62.29316198825836ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:55.909Z - [SYNC]: collect registered sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:55.910Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:55.910Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:55.910Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:55.910Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:55.911Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:55.911Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:55.911Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 1.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:55.911Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 1.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:55.911Z - Time taken for 'total execution time for createProjectGraph()' 4.638674020767212ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:55.964Z - [WATCHER]: 3 file(s) created or restored, 0 file(s) modified, 3 file(s) deleted
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:55.964Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:55.965Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:55.965Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:55.965Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:55.965Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 1.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:55.965Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 1.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:55.965Z - Time taken for 'changed-projects' 0.013465046882629395ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:56.065Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:56.065Z - [REQUEST]: .nx/workspace-data/source-maps.json,.nx/workspace-data/file-map.json,.nx/workspace-data/project-graph.json
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:56.065Z - [REQUEST]: .nx/workspace-data/project-graph.json~ad0a3d76,.nx/workspace-data/file-map.json~ad0a3d76,.nx/workspace-data/source-maps.json~ad0a3d76
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:56.067Z - Time taken for 'hash changed files from watcher' 0.3227229118347168ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:56.069Z - Time taken for 'build-project-configs' 2.0008009672164917ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:56.073Z - [SYNC]: collect registered sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:56.074Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:56.074Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:56.074Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:56.074Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:56.074Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:56.074Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:56.074Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:56.074Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:56.074Z - Time taken for 'total execution time for createProjectGraph()' 2.6536619663238525ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:56.135Z - [WATCHER]: 3 file(s) created or restored, 0 file(s) modified, 3 file(s) deleted
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:56.135Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:56.135Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:56.135Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:56.135Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:56.135Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:56.135Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:56.135Z - Time taken for 'changed-projects' 0.011800050735473633ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:56.235Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:56.235Z - [REQUEST]: .nx/workspace-data/file-map.json,.nx/workspace-data/source-maps.json,.nx/workspace-data/project-graph.json
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:56.235Z - [REQUEST]: .nx/workspace-data/project-graph.json~da166934,.nx/workspace-data/file-map.json~da166934,.nx/workspace-data/source-maps.json~da166934
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:56.237Z - Time taken for 'hash changed files from watcher' 0.33197903633117676ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:56.239Z - Time taken for 'build-project-configs' 1.774366021156311ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:56.243Z - [SYNC]: collect registered sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:56.243Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:56.243Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:56.243Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:56.243Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:56.243Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:56.243Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:56.243Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:56.243Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:56.243Z - Time taken for 'total execution time for createProjectGraph()' 2.4575940370559692ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:56.306Z - [WATCHER]: 3 file(s) created or restored, 0 file(s) modified, 3 file(s) deleted
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:56.306Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:56.306Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:56.306Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:56.306Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:56.306Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:56.306Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:56.306Z - Time taken for 'changed-projects' 0.012277960777282715ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:56.406Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:56.406Z - [REQUEST]: .nx/workspace-data/project-graph.json,.nx/workspace-data/source-maps.json,.nx/workspace-data/file-map.json
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:56.406Z - [REQUEST]: .nx/workspace-data/project-graph.json~3b711498,.nx/workspace-data/source-maps.json~3b711498,.nx/workspace-data/file-map.json~3b711498
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:56.408Z - Time taken for 'hash changed files from watcher' 0.38127195835113525ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:56.410Z - Time taken for 'build-project-configs' 1.9356060028076172ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:56.414Z - [SYNC]: collect registered sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:56.415Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:56.415Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:56.415Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:56.415Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:56.415Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:56.415Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:56.415Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:56.415Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:56.415Z - Time taken for 'total execution time for createProjectGraph()' 2.633646011352539ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:56.476Z - [WATCHER]: 3 file(s) created or restored, 0 file(s) modified, 3 file(s) deleted
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:56.477Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:56.477Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:56.477Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:56.477Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:56.477Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:56.477Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:56.477Z - Time taken for 'changed-projects' 0.015054941177368164ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:56.578Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:56.578Z - [REQUEST]: .nx/workspace-data/project-graph.json,.nx/workspace-data/source-maps.json,.nx/workspace-data/file-map.json
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:56.578Z - [REQUEST]: .nx/workspace-data/source-maps.json~e2de6807,.nx/workspace-data/file-map.json~e2de6807,.nx/workspace-data/project-graph.json~e2de6807
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:56.579Z - Time taken for 'hash changed files from watcher' 0.37130308151245117ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:56.582Z - Time taken for 'build-project-configs' 1.761579990386963ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:56.586Z - [SYNC]: collect registered sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:56.586Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:56.586Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:56.586Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:56.586Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:56.586Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:56.586Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:56.586Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:56.586Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:56.586Z - Time taken for 'total execution time for createProjectGraph()' 2.5312910079956055ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:56.647Z - [WATCHER]: 3 file(s) created or restored, 0 file(s) modified, 3 file(s) deleted
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:56.647Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:56.647Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:56.647Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:56.647Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:56.647Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:56.647Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:56.647Z - Time taken for 'changed-projects' 0.012547969818115234ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:56.657Z - Established a connection. Number of open connections: 5
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:56.657Z - [REQUEST]: Client Request for Project Graph Received
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:56.658Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:56.658Z - [REQUEST]: .nx/workspace-data/source-maps.json,.nx/workspace-data/file-map.json,.nx/workspace-data/project-graph.json
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:56.658Z - [REQUEST]: .nx/workspace-data/source-maps.json~4909df21,.nx/workspace-data/file-map.json~4909df21,.nx/workspace-data/project-graph.json~4909df21
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:56.659Z - Time taken for 'hash changed files from watcher' 0.31694698333740234ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:56.659Z - Closed a connection. Number of open connections: 4
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:56.661Z - Time taken for 'build-project-configs' 1.6756010055541992ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:56.665Z - [SYNC]: collect registered sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:56.665Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:56.665Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:56.665Z - [REQUEST]: Responding to the client. project-graph
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:56.665Z - Time taken for 'total for creating and serializing project graph' 8.21488893032074ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:56.666Z - Done responding to the client project-graph
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:56.666Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 8. Response time: 1.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:56.667Z - [REQUEST]: Responding to the client. handleContextFileData
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:56.667Z - Done responding to the client handleContextFileData
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:56.667Z - Handled GET_CONTEXT_FILE_DATA. Handling time: 1. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:56.667Z - Closed a connection. Number of open connections: 3
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:56.678Z - Closed a connection. Number of open connections: 2
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:56.679Z - Established a connection. Number of open connections: 3
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:56.679Z - Established a connection. Number of open connections: 4
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:56.679Z - Closed a connection. Number of open connections: 3
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:56.679Z - [REQUEST]: Client Request for Project Graph Received
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:56.680Z - [REQUEST]: Responding to the client. project-graph
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:56.680Z - Time taken for 'total for creating and serializing project graph' 0.16416501998901367ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:56.680Z - Done responding to the client project-graph
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:56.680Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 1. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:56.681Z - [REQUEST]: Client Request for Project Graph Received
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:56.681Z - [REQUEST]: Responding to the client. project-graph
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:56.681Z - Time taken for 'total for creating and serializing project graph' 0.15706098079681396ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:56.681Z - Done responding to the client project-graph
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:56.681Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:56.682Z - Established a connection. Number of open connections: 4
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:56.728Z - [WATCHER]: 3 file(s) created or restored, 0 file(s) modified, 3 file(s) deleted
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:56.728Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:56.728Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:56.728Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:56.728Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:56.728Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:56.728Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:56.728Z - Time taken for 'changed-projects' 0.012507081031799316ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:56.828Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:56.828Z - [REQUEST]: .nx/workspace-data/file-map.json,.nx/workspace-data/source-maps.json,.nx/workspace-data/project-graph.json
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:56.828Z - [REQUEST]: .nx/workspace-data/file-map.json~e427c49f,.nx/workspace-data/source-maps.json~e427c49f,.nx/workspace-data/project-graph.json~e427c49f
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:56.829Z - Time taken for 'hash changed files from watcher' 0.3898249864578247ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:56.832Z - Time taken for 'build-project-configs' 1.930053949356079ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:56.836Z - [SYNC]: collect registered sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:56.836Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:56.836Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:56.836Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:56.836Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:56.836Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:56.836Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:56.836Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:56.836Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:56.836Z - Time taken for 'total execution time for createProjectGraph()' 2.4964770078659058ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:56.897Z - [WATCHER]: 3 file(s) created or restored, 0 file(s) modified, 3 file(s) deleted
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:56.897Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:56.898Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:56.898Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:56.898Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:56.898Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 1.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:56.898Z - Handled FILE-WATCH-CHANGED. Handling time: 1. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:56.898Z - Time taken for 'changed-projects' 0.015218019485473633ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:56.998Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:56.998Z - [REQUEST]: .nx/workspace-data/project-graph.json,.nx/workspace-data/source-maps.json,.nx/workspace-data/file-map.json
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:56.998Z - [REQUEST]: .nx/workspace-data/project-graph.json~f41f58b2,.nx/workspace-data/source-maps.json~f41f58b2,.nx/workspace-data/file-map.json~f41f58b2
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:57.000Z - Time taken for 'hash changed files from watcher' 0.3466759920120239ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:57.002Z - Time taken for 'build-project-configs' 1.7669180631637573ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:57.006Z - [SYNC]: collect registered sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:57.006Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:57.006Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:57.006Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:57.006Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:57.006Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:57.006Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:57.006Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:57.006Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:57.006Z - Time taken for 'total execution time for createProjectGraph()' 2.444295048713684ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:57.068Z - [WATCHER]: 3 file(s) created or restored, 0 file(s) modified, 3 file(s) deleted
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:57.068Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:57.069Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:57.069Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:57.069Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:57.069Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 1.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:57.069Z - Handled FILE-WATCH-CHANGED. Handling time: 1. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:57.069Z - Time taken for 'changed-projects' 0.012817978858947754ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:57.170Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:57.170Z - [REQUEST]: .nx/workspace-data/source-maps.json,.nx/workspace-data/file-map.json,.nx/workspace-data/project-graph.json
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:57.170Z - [REQUEST]: .nx/workspace-data/file-map.json~f5c9cfcb,.nx/workspace-data/project-graph.json~f5c9cfcb,.nx/workspace-data/source-maps.json~f5c9cfcb
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:57.172Z - Time taken for 'hash changed files from watcher' 0.5633630752563477ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:57.176Z - Time taken for 'build-project-configs' 2.7005029916763306ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:57.180Z - [SYNC]: collect registered sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:57.180Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:57.180Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:57.180Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:57.180Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:57.180Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:57.180Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:57.180Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:57.180Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:57.180Z - Time taken for 'total execution time for createProjectGraph()' 2.7205309867858887ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:57.244Z - [WATCHER]: 3 file(s) created or restored, 0 file(s) modified, 3 file(s) deleted
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:57.244Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:57.244Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:57.244Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:57.244Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:57.244Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:57.244Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:57.244Z - Time taken for 'changed-projects' 0.028715968132019043ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:57.344Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:57.345Z - [REQUEST]: .nx/workspace-data/project-graph.json,.nx/workspace-data/source-maps.json,.nx/workspace-data/file-map.json
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:57.345Z - [REQUEST]: .nx/workspace-data/project-graph.json~ef75cbdd,.nx/workspace-data/file-map.json~ef75cbdd,.nx/workspace-data/source-maps.json~ef75cbdd
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:57.347Z - Time taken for 'hash changed files from watcher' 0.5276869535446167ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:57.350Z - Time taken for 'build-project-configs' 2.454524040222168ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:57.354Z - [SYNC]: collect registered sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:57.354Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:57.354Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:57.354Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:57.354Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:57.354Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:57.354Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:57.354Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:57.355Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 1.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:57.355Z - Time taken for 'total execution time for createProjectGraph()' 2.6502939462661743ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:57.417Z - [WATCHER]: 3 file(s) created or restored, 0 file(s) modified, 3 file(s) deleted
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:57.417Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:57.417Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:57.417Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:57.417Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:57.417Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:57.417Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:57.417Z - Time taken for 'changed-projects' 0.020164966583251953ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:57.518Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:57.518Z - [REQUEST]: .nx/workspace-data/project-graph.json,.nx/workspace-data/source-maps.json,.nx/workspace-data/file-map.json
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:57.518Z - [REQUEST]: .nx/workspace-data/file-map.json~ab876b62,.nx/workspace-data/project-graph.json~ab876b62,.nx/workspace-data/source-maps.json~ab876b62
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:57.520Z - Time taken for 'hash changed files from watcher' 0.5574970245361328ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:57.523Z - Time taken for 'build-project-configs' 2.3566620349884033ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:57.527Z - [SYNC]: collect registered sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:57.527Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:57.527Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:57.528Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:57.528Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:57.528Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:57.528Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:57.528Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:57.528Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:57.528Z - Time taken for 'total execution time for createProjectGraph()' 2.9823089838027954ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:57.591Z - [WATCHER]: 3 file(s) created or restored, 0 file(s) modified, 3 file(s) deleted
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:57.591Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:57.591Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:57.591Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:57.591Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:57.591Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:57.591Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:57.591Z - Time taken for 'changed-projects' 0.019595980644226074ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:57.692Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:57.692Z - [REQUEST]: .nx/workspace-data/file-map.json,.nx/workspace-data/source-maps.json,.nx/workspace-data/project-graph.json
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:57.692Z - [REQUEST]: .nx/workspace-data/source-maps.json~277deac7,.nx/workspace-data/file-map.json~277deac7,.nx/workspace-data/project-graph.json~277deac7
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:57.694Z - Time taken for 'hash changed files from watcher' 0.576104998588562ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:57.697Z - Time taken for 'build-project-configs' 2.5966349840164185ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:57.701Z - [SYNC]: collect registered sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:57.701Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:57.702Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:57.702Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:57.702Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:57.702Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:57.702Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:57.702Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:57.702Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:57.702Z - Time taken for 'total execution time for createProjectGraph()' 2.645437002182007ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:57.764Z - [WATCHER]: 7 file(s) created or restored, 0 file(s) modified, 6 file(s) deleted
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:57.771Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:57.772Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:57.772Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:57.772Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:57.772Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 1.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:57.772Z - Handled FILE-WATCH-CHANGED. Handling time: 1. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:57.772Z - Time taken for 'changed-projects' 0.03571200370788574ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:57.824Z - [WATCHER]: 1 file(s) created or restored, 0 file(s) modified, 1 file(s) deleted
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:57.840Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:57.840Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:57.840Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:57.840Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:57.840Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:57.841Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 1.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:57.841Z - Time taken for 'changed-projects' 0.029365062713623047ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:57.872Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:57.872Z - [REQUEST]: .nx/workspace-data/source-maps.json,.nx/workspace-data/project-graph.json,.git/index.lock,.git/objects/f1/0b137552f7e9a0396c43b83f4f554aa2918902,.git/objects/3c/0cba90ccfe8e3f35b99c116b9e1d4582f743c7,.nx/workspace-data/file-map.json,.git/objects/35/ad39a3e4250f88557512336f0c39923ea685fd,.git/objects/73/c5ad85a97d9c3aff347777c04f2299d418bb7b
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:57.872Z - [REQUEST]: .git/objects/f1/tmp_obj_edHpVp,.nx/workspace-data/file-map.json~efb304c6,.nx/workspace-data/source-maps.json~efb304c6,.nx/workspace-data/project-graph.json~efb304c6,.git/objects/35/tmp_obj_ZYeSAI,.git/objects/3c/tmp_obj_GcDqvx,.git/objects/73/tmp_obj_DeDHr2
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:57.874Z - Time taken for 'hash changed files from watcher' 0.6214680671691895ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:57.876Z - Time taken for 'build-project-configs' 2.021177053451538ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:57.880Z - [SYNC]: collect registered sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:57.881Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:57.881Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:57.881Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:57.881Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:57.881Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:57.881Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:57.881Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:57.881Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:57.881Z - Time taken for 'total execution time for createProjectGraph()' 2.806944966316223ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:57.904Z - [WATCHER]: 4 file(s) created or restored, 0 file(s) modified, 4 file(s) deleted
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:57.905Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:57.905Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:57.905Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:57.905Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:57.905Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:57.905Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:57.905Z - Time taken for 'changed-projects' 0.013870000839233398ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:58.005Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:58.005Z - [REQUEST]: .nx/workspace-data/project-graph.json,.nx/workspace-data/file-map.json,.git/index,.nx/workspace-data/source-maps.json
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:58.005Z - [REQUEST]: .nx/workspace-data/project-graph.json~90c656b0,.nx/workspace-data/file-map.json~90c656b0,.nx/workspace-data/source-maps.json~90c656b0,.git/index.lock
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:58.007Z - Time taken for 'hash changed files from watcher' 0.6826339960098267ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:58.009Z - Time taken for 'build-project-configs' 1.8374899625778198ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:58.013Z - [SYNC]: collect registered sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:58.013Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:58.013Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:58.014Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:58.014Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:58.014Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:58.014Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:58.014Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:58.014Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:58.014Z - Time taken for 'total execution time for createProjectGraph()' 2.5341060161590576ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:58.076Z - [WATCHER]: 3 file(s) created or restored, 0 file(s) modified, 3 file(s) deleted
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:58.076Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:58.076Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:58.076Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:58.076Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:58.076Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:58.076Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:58.076Z - Time taken for 'changed-projects' 0.016752004623413086ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:58.177Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:58.178Z - [REQUEST]: .nx/workspace-data/source-maps.json,.nx/workspace-data/project-graph.json,.nx/workspace-data/file-map.json
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:58.178Z - [REQUEST]: .nx/workspace-data/file-map.json~1de402c5,.nx/workspace-data/source-maps.json~1de402c5,.nx/workspace-data/project-graph.json~1de402c5
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:58.180Z - Time taken for 'hash changed files from watcher' 0.6232500076293945ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:58.183Z - Time taken for 'build-project-configs' 2.388722062110901ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:58.187Z - [SYNC]: collect registered sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:58.187Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:58.188Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:58.188Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:58.188Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:58.188Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:58.188Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:58.188Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:58.188Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:58.188Z - Time taken for 'total execution time for createProjectGraph()' 2.9362629652023315ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:58.255Z - [WATCHER]: 3 file(s) created or restored, 0 file(s) modified, 3 file(s) deleted
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:58.256Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:58.256Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:58.256Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:58.256Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:58.256Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:58.256Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:58.256Z - Time taken for 'changed-projects' 0.01370704174041748ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:58.356Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:58.356Z - [REQUEST]: .nx/workspace-data/project-graph.json,.nx/workspace-data/file-map.json,.nx/workspace-data/source-maps.json
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:58.356Z - [REQUEST]: .nx/workspace-data/project-graph.json~58ba19ab,.nx/workspace-data/file-map.json~58ba19ab,.nx/workspace-data/source-maps.json~58ba19ab
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:58.358Z - Time taken for 'hash changed files from watcher' 0.3325340747833252ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:58.360Z - Time taken for 'build-project-configs' 1.9138109683990479ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:58.364Z - [SYNC]: collect registered sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:58.364Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:58.364Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:58.365Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:58.365Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:58.365Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:58.365Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:58.365Z - Handled FILE-WATCH-CHANGED. Handling time: 1. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:58.365Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:58.365Z - Time taken for 'total execution time for createProjectGraph()' 2.659190058708191ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:58.365Z - [WATCHER]: 1 file(s) created or restored, 0 file(s) modified, 1 file(s) deleted
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:58.365Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:58.365Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:58.365Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:58.365Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:58.365Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:58.365Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:58.365Z - Time taken for 'changed-projects' 0.0070639848709106445ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:58.425Z - [WATCHER]: 3 file(s) created or restored, 0 file(s) modified, 3 file(s) deleted
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:58.426Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:58.426Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:58.426Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:58.426Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:58.426Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:58.426Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:58.426Z - Time taken for 'changed-projects' 0.014639019966125488ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:58.466Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:58.466Z - [REQUEST]: .git/index,.nx/workspace-data/file-map.json,.nx/workspace-data/project-graph.json,.nx/workspace-data/source-maps.json
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:58.466Z - [REQUEST]: .git/index.lock,.nx/workspace-data/source-maps.json~e2c3ab4f,.nx/workspace-data/file-map.json~e2c3ab4f,.nx/workspace-data/project-graph.json~e2c3ab4f
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:58.467Z - Time taken for 'hash changed files from watcher' 0.6143391132354736ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:58.470Z - Time taken for 'build-project-configs' 1.8446869850158691ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:58.474Z - [SYNC]: collect registered sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:58.474Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:58.474Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:58.474Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:58.474Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:58.474Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:58.474Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:58.474Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:58.474Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:58.474Z - Time taken for 'total execution time for createProjectGraph()' 2.5045770406723022ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:58.504Z - [WATCHER]: 4 file(s) created or restored, 0 file(s) modified, 4 file(s) deleted
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:58.504Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:58.504Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:58.504Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:58.504Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:58.505Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 1.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:58.505Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 1.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:58.505Z - Time taken for 'changed-projects' 0.014382004737854004ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:58.606Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:58.606Z - [REQUEST]: .nx/workspace-data/file-map.json,.nx/workspace-data/project-graph.json,.nx/workspace-data/source-maps.json,.git/index
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:58.606Z - [REQUEST]: .nx/workspace-data/project-graph.json~1f1d3b4a,.nx/workspace-data/file-map.json~1f1d3b4a,.git/index.lock,.nx/workspace-data/source-maps.json~1f1d3b4a
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:58.608Z - Time taken for 'hash changed files from watcher' 0.6328809261322021ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:58.610Z - Time taken for 'build-project-configs' 2.0230830907821655ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:58.614Z - [SYNC]: collect registered sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:58.614Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:58.615Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:58.615Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:58.615Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:58.615Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:58.615Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:58.615Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:58.615Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:58.615Z - Time taken for 'total execution time for createProjectGraph()' 2.676218032836914ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:58.676Z - [WATCHER]: 3 file(s) created or restored, 0 file(s) modified, 3 file(s) deleted
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:58.676Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:58.676Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:58.676Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:58.676Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:58.676Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:58.676Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:58.676Z - Time taken for 'changed-projects' 0.01376497745513916ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:58.777Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:58.777Z - [REQUEST]: .nx/workspace-data/project-graph.json,.nx/workspace-data/source-maps.json,.nx/workspace-data/file-map.json
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:58.777Z - [REQUEST]: .nx/workspace-data/source-maps.json~8ecab4e6,.nx/workspace-data/project-graph.json~8ecab4e6,.nx/workspace-data/file-map.json~8ecab4e6
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:58.779Z - Time taken for 'hash changed files from watcher' 0.7357790470123291ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:58.783Z - Time taken for 'build-project-configs' 2.6584049463272095ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:58.787Z - [SYNC]: collect registered sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:58.787Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:58.787Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:58.787Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:58.787Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:58.787Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:58.787Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:58.787Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:58.787Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:58.787Z - Time taken for 'total execution time for createProjectGraph()' 2.956882953643799ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:58.850Z - [WATCHER]: 3 file(s) created or restored, 0 file(s) modified, 3 file(s) deleted
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:58.850Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:58.851Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:58.851Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:58.851Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:58.851Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 1.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:58.851Z - Handled FILE-WATCH-CHANGED. Handling time: 1. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:58.851Z - Time taken for 'changed-projects' 0.020617008209228516ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:58.951Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:58.951Z - [REQUEST]: .nx/workspace-data/project-graph.json,.nx/workspace-data/file-map.json,.nx/workspace-data/source-maps.json
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:58.951Z - [REQUEST]: .nx/workspace-data/source-maps.json~ab1ac675,.nx/workspace-data/project-graph.json~ab1ac675,.nx/workspace-data/file-map.json~ab1ac675
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:58.954Z - Time taken for 'hash changed files from watcher' 0.5981299877166748ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:58.957Z - Time taken for 'build-project-configs' 2.634729027748108ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:58.961Z - [SYNC]: collect registered sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:58.961Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:58.962Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:58.962Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:58.962Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:58.962Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:58.962Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:58.962Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:58.962Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:58.962Z - Time taken for 'total execution time for createProjectGraph()' 2.9466710090637207ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:59.024Z - [WATCHER]: 3 file(s) created or restored, 0 file(s) modified, 3 file(s) deleted
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:59.024Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:59.024Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:59.024Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:59.024Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:59.024Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:59.024Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:59.025Z - Time taken for 'changed-projects' 0.020303010940551758ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:59.125Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:59.125Z - [REQUEST]: .nx/workspace-data/source-maps.json,.nx/workspace-data/file-map.json,.nx/workspace-data/project-graph.json
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:59.125Z - [REQUEST]: .nx/workspace-data/file-map.json~cf8e37d4,.nx/workspace-data/project-graph.json~cf8e37d4,.nx/workspace-data/source-maps.json~cf8e37d4
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:59.127Z - Time taken for 'hash changed files from watcher' 0.5598180294036865ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:59.130Z - Time taken for 'build-project-configs' 2.732979893684387ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:59.135Z - [SYNC]: collect registered sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:59.135Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:59.135Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:59.135Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:59.135Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:59.135Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:59.135Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:59.135Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:59.135Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:59.135Z - Time taken for 'total execution time for createProjectGraph()' 2.957813024520874ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:59.197Z - [WATCHER]: 3 file(s) created or restored, 0 file(s) modified, 3 file(s) deleted
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:59.198Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:59.198Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:59.198Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:59.198Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:59.198Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:59.198Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:59.198Z - Time taken for 'changed-projects' 0.020363926887512207ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:59.291Z - [WATCHER]: 4 file(s) created or restored, 1 file(s) modified, 4 file(s) deleted
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:59.291Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:59.291Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:59.291Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:59.291Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:59.291Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:59.291Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:59.291Z - Time taken for 'changed-projects' 0.020249009132385254ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:59.298Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:59.299Z - [REQUEST]: .nx/workspace-data/project-graph.json,.nx/workspace-data/source-maps.json,.nx/workspace-data/file-map.json,.git/objects/b5/8c1749bef616979fc9a401dd587f64dc61463d,.git/index,.git/objects/ec/c320d72c7d32366aaa491fef3a3615f903d148,.git/objects/43/8b8225c65491f2fe9eeeab084371a410f8f181,.git/objects/73/c5ad85a97d9c3aff347777c04f2299d418bb7b
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:59.299Z - [REQUEST]: .nx/workspace-data/source-maps.json~ab7da59f,.nx/workspace-data/project-graph.json~ab7da59f,.nx/workspace-data/file-map.json~ab7da59f,.git/objects/43/tmp_obj_1VDPj8,.git/index.lock,.git/objects/b5/tmp_obj_lgYu0r,.git/objects/ec/tmp_obj_IrqQZt
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:59.300Z - Time taken for 'hash changed files from watcher' 0.6865260601043701ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:59.302Z - Time taken for 'build-project-configs' 1.9114339351654053ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:59.306Z - [SYNC]: collect registered sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:59.306Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:59.307Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:59.307Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:59.307Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:59.307Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:59.307Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:59.307Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:59.307Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:59.307Z - Time taken for 'total execution time for createProjectGraph()' 2.4786739349365234ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:59.368Z - [WATCHER]: 3 file(s) created or restored, 0 file(s) modified, 3 file(s) deleted
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:59.369Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:59.369Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:59.369Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:59.369Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:59.369Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:59.369Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:59.369Z - Time taken for 'changed-projects' 0.013217926025390625ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:59.469Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:59.470Z - [REQUEST]: .nx/workspace-data/source-maps.json,.nx/workspace-data/file-map.json,.nx/workspace-data/project-graph.json
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:59.470Z - [REQUEST]: .nx/workspace-data/project-graph.json~dc59a371,.nx/workspace-data/source-maps.json~dc59a371,.nx/workspace-data/file-map.json~dc59a371
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:59.471Z - Time taken for 'hash changed files from watcher' 0.36850810050964355ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:59.474Z - Time taken for 'build-project-configs' 2.346385955810547ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:59.478Z - [SYNC]: collect registered sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:59.478Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:59.478Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:59.478Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:59.478Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:59.478Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:59.478Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:59.478Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:59.478Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:59.478Z - Time taken for 'total execution time for createProjectGraph()' 2.4927719831466675ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:59.540Z - [WATCHER]: 3 file(s) created or restored, 0 file(s) modified, 3 file(s) deleted
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:59.540Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:59.540Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:59.540Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:59.540Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:59.540Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:59.541Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 1.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:59.541Z - Time taken for 'changed-projects' 0.01955592632293701ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:59.641Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:59.641Z - [REQUEST]: .nx/workspace-data/file-map.json,.nx/workspace-data/project-graph.json,.nx/workspace-data/source-maps.json
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:59.641Z - [REQUEST]: .nx/workspace-data/source-maps.json~03173ee8,.nx/workspace-data/project-graph.json~03173ee8,.nx/workspace-data/file-map.json~03173ee8
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:59.643Z - Time taken for 'hash changed files from watcher' 0.4844859838485718ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:59.645Z - Time taken for 'build-project-configs' 2.167196035385132ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:59.650Z - [SYNC]: collect registered sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:59.650Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:59.650Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:59.650Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:59.650Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:59.650Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:59.650Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:59.650Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:59.650Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:59.650Z - Time taken for 'total execution time for createProjectGraph()' 2.49344801902771ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:59.711Z - [WATCHER]: 3 file(s) created or restored, 0 file(s) modified, 3 file(s) deleted
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:59.712Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:59.712Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:59.712Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:59.712Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:59.712Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:59.712Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:59.712Z - Time taken for 'changed-projects' 0.02074301242828369ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:59.813Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:59.813Z - [REQUEST]: .nx/workspace-data/project-graph.json,.nx/workspace-data/source-maps.json,.nx/workspace-data/file-map.json
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:59.813Z - [REQUEST]: .nx/workspace-data/project-graph.json~9a3b5a8a,.nx/workspace-data/source-maps.json~9a3b5a8a,.nx/workspace-data/file-map.json~9a3b5a8a
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:59.815Z - Time taken for 'hash changed files from watcher' 0.5545710325241089ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:59.818Z - Time taken for 'build-project-configs' 2.2425789833068848ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:59.822Z - [SYNC]: collect registered sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:59.822Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:59.822Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:59.822Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:59.822Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:59.822Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:59.822Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:59.822Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:59.822Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:59.822Z - Time taken for 'total execution time for createProjectGraph()' 2.510730028152466ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:59.885Z - [WATCHER]: 3 file(s) created or restored, 0 file(s) modified, 3 file(s) deleted
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:59.885Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:59.885Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:59.885Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:59.885Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:59.885Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:59.885Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:59.885Z - Time taken for 'changed-projects' 0.019081950187683105ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:59.986Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:59.986Z - [REQUEST]: .nx/workspace-data/project-graph.json,.nx/workspace-data/file-map.json,.nx/workspace-data/source-maps.json
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:59.986Z - [REQUEST]: .nx/workspace-data/project-graph.json~91b29c11,.nx/workspace-data/file-map.json~91b29c11,.nx/workspace-data/source-maps.json~91b29c11
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:59.988Z - Time taken for 'hash changed files from watcher' 0.4428369998931885ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:59.991Z - Time taken for 'build-project-configs' 2.14365291595459ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:59.995Z - [SYNC]: collect registered sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:59.995Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:59.995Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:59.995Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:59.995Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:59.995Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:59.995Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:59.995Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:59.995Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:04:59.995Z - Time taken for 'total execution time for createProjectGraph()' 2.599766969680786ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:00.056Z - [WATCHER]: 3 file(s) created or restored, 0 file(s) modified, 3 file(s) deleted
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:00.057Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:00.057Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:00.057Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:00.057Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:00.057Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:00.057Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:00.057Z - Time taken for 'changed-projects' 0.013489007949829102ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:00.158Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:00.158Z - [REQUEST]: .nx/workspace-data/file-map.json,.nx/workspace-data/project-graph.json,.nx/workspace-data/source-maps.json
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:00.158Z - [REQUEST]: .nx/workspace-data/file-map.json~27f45258,.nx/workspace-data/project-graph.json~27f45258,.nx/workspace-data/source-maps.json~27f45258
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:00.159Z - Time taken for 'hash changed files from watcher' 0.35362398624420166ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:00.167Z - Time taken for 'build-project-configs' 7.222485899925232ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:00.171Z - [SYNC]: collect registered sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:00.171Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:00.171Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:00.171Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:00.171Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:00.171Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:00.171Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:00.172Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 1.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:00.172Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 1.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:00.172Z - Time taken for 'total execution time for createProjectGraph()' 2.6178489923477173ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:00.233Z - [WATCHER]: 3 file(s) created or restored, 0 file(s) modified, 3 file(s) deleted
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:00.234Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:00.234Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:00.234Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:00.234Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:00.234Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:00.234Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:00.234Z - Time taken for 'changed-projects' 0.020807981491088867ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:00.294Z - Established a connection. Number of open connections: 5
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:00.295Z - [REQUEST]: Client Request for Project Graph Received
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:00.295Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:00.295Z - [REQUEST]: .nx/workspace-data/project-graph.json,.nx/workspace-data/source-maps.json,.nx/workspace-data/file-map.json
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:00.295Z - [REQUEST]: .nx/workspace-data/source-maps.json~bc096214,.nx/workspace-data/project-graph.json~bc096214,.nx/workspace-data/file-map.json~bc096214
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:00.297Z - Time taken for 'hash changed files from watcher' 0.3422739505767822ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:00.297Z - Closed a connection. Number of open connections: 4
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:00.303Z - Time taken for 'build-project-configs' 2.267311930656433ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:00.318Z - [SYNC]: collect registered sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:00.319Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:00.319Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:00.319Z - [REQUEST]: Responding to the client. project-graph
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:00.319Z - Time taken for 'total for creating and serializing project graph' 24.155731916427612ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:00.319Z - Done responding to the client project-graph
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:00.319Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 25. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:00.320Z - [REQUEST]: Responding to the client. handleContextFileData
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:00.320Z - Done responding to the client handleContextFileData
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:00.320Z - Handled GET_CONTEXT_FILE_DATA. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:00.321Z - Closed a connection. Number of open connections: 3
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:00.332Z - Closed a connection. Number of open connections: 2
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:00.332Z - Established a connection. Number of open connections: 3
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:00.333Z - Established a connection. Number of open connections: 4
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:00.333Z - Closed a connection. Number of open connections: 3
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:00.333Z - [REQUEST]: Client Request for Project Graph Received
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:00.333Z - [REQUEST]: Responding to the client. project-graph
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:00.333Z - Time taken for 'total for creating and serializing project graph' 0.15394699573516846ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:00.334Z - Done responding to the client project-graph
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:00.334Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 1.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:00.334Z - [REQUEST]: Client Request for Project Graph Received
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:00.335Z - [REQUEST]: Responding to the client. project-graph
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:00.335Z - Time taken for 'total for creating and serializing project graph' 0.1648160219192505ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:00.335Z - Done responding to the client project-graph
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:00.335Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 1. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:00.335Z - Established a connection. Number of open connections: 4
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:00.377Z - [WATCHER]: 3 file(s) created or restored, 0 file(s) modified, 3 file(s) deleted
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:00.377Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:00.378Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:00.378Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:00.378Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:00.378Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 1.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:00.378Z - Handled FILE-WATCH-CHANGED. Handling time: 1. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:00.378Z - Time taken for 'changed-projects' 0.019749999046325684ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:00.479Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:00.479Z - [REQUEST]: .nx/workspace-data/file-map.json,.nx/workspace-data/source-maps.json,.nx/workspace-data/project-graph.json
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:00.480Z - [REQUEST]: .nx/workspace-data/project-graph.json~e574d0fd,.nx/workspace-data/source-maps.json~e574d0fd,.nx/workspace-data/file-map.json~e574d0fd
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:00.482Z - Time taken for 'hash changed files from watcher' 0.8196579217910767ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:00.485Z - Time taken for 'build-project-configs' 2.7600979804992676ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:00.490Z - [SYNC]: collect registered sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:00.491Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:00.491Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:00.491Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:00.491Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:00.491Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:00.491Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:00.491Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:00.491Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:00.491Z - Time taken for 'total execution time for createProjectGraph()' 3.263692021369934ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:00.554Z - [WATCHER]: 3 file(s) created or restored, 0 file(s) modified, 3 file(s) deleted
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:00.555Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:00.555Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:00.555Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:00.555Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:00.555Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:00.555Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:00.555Z - Time taken for 'changed-projects' 0.020148038864135742ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:00.656Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:00.656Z - [REQUEST]: .nx/workspace-data/project-graph.json,.nx/workspace-data/file-map.json,.nx/workspace-data/source-maps.json
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:00.656Z - [REQUEST]: .nx/workspace-data/file-map.json~a9e785e1,.nx/workspace-data/project-graph.json~a9e785e1,.nx/workspace-data/source-maps.json~a9e785e1
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:00.658Z - Time taken for 'hash changed files from watcher' 0.5374900102615356ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:00.661Z - Time taken for 'build-project-configs' 2.545220971107483ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:00.665Z - [SYNC]: collect registered sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:00.666Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:00.666Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:00.666Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:00.666Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:00.666Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:00.666Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:00.666Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:00.666Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:00.666Z - Time taken for 'total execution time for createProjectGraph()' 2.9691100120544434ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:00.728Z - [WATCHER]: 3 file(s) created or restored, 0 file(s) modified, 3 file(s) deleted
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:00.728Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:00.728Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:00.728Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:00.728Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:00.728Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:00.728Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:00.728Z - Time taken for 'changed-projects' 0.014815926551818848ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:00.829Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:00.829Z - [REQUEST]: .nx/workspace-data/project-graph.json,.nx/workspace-data/file-map.json,.nx/workspace-data/source-maps.json
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:00.829Z - [REQUEST]: .nx/workspace-data/project-graph.json~26652ad5,.nx/workspace-data/file-map.json~26652ad5,.nx/workspace-data/source-maps.json~26652ad5
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:00.830Z - Time taken for 'hash changed files from watcher' 0.39311301708221436ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:00.833Z - Time taken for 'build-project-configs' 1.8941739797592163ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:00.837Z - [SYNC]: collect registered sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:00.837Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:00.837Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:00.837Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:00.837Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:00.837Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:00.837Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:00.837Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:00.837Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:00.837Z - Time taken for 'total execution time for createProjectGraph()' 2.4695769548416138ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:00.901Z - [WATCHER]: 3 file(s) created or restored, 0 file(s) modified, 3 file(s) deleted
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:00.901Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:00.901Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:00.901Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:00.901Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:00.901Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:00.901Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:00.901Z - Time taken for 'changed-projects' 0.018660902976989746ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:01.002Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:01.002Z - [REQUEST]: .nx/workspace-data/file-map.json,.nx/workspace-data/source-maps.json,.nx/workspace-data/project-graph.json
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:01.002Z - [REQUEST]: .nx/workspace-data/project-graph.json~c8e0708e,.nx/workspace-data/source-maps.json~c8e0708e,.nx/workspace-data/file-map.json~c8e0708e
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:01.004Z - Time taken for 'hash changed files from watcher' 0.5793700218200684ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:01.008Z - Time taken for 'build-project-configs' 2.96867299079895ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:01.012Z - [SYNC]: collect registered sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:01.012Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:01.012Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:01.012Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:01.012Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:01.012Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:01.012Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:01.012Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:01.012Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:01.013Z - Time taken for 'total execution time for createProjectGraph()' 2.759114980697632ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:01.074Z - [WATCHER]: 3 file(s) created or restored, 0 file(s) modified, 3 file(s) deleted
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:01.075Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:01.075Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:01.075Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:01.075Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:01.075Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:01.075Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:01.075Z - Time taken for 'changed-projects' 0.020290017127990723ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:01.176Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:01.176Z - [REQUEST]: .nx/workspace-data/project-graph.json,.nx/workspace-data/source-maps.json,.nx/workspace-data/file-map.json
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:01.176Z - [REQUEST]: .nx/workspace-data/project-graph.json~ef362803,.nx/workspace-data/file-map.json~ef362803,.nx/workspace-data/source-maps.json~ef362803
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:01.178Z - Time taken for 'hash changed files from watcher' 0.6905069351196289ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:01.181Z - Time taken for 'build-project-configs' 2.221250057220459ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:01.185Z - [SYNC]: collect registered sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:01.185Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:01.185Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:01.185Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:01.185Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:01.185Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:01.185Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:01.185Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:01.185Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:01.186Z - Time taken for 'total execution time for createProjectGraph()' 2.4889869689941406ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:01.250Z - [WATCHER]: 3 file(s) created or restored, 0 file(s) modified, 3 file(s) deleted
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:01.250Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:01.250Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:01.250Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:01.250Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:01.250Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:01.250Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:01.250Z - Time taken for 'changed-projects' 0.014472007751464844ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:01.351Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:01.351Z - [REQUEST]: .nx/workspace-data/file-map.json,.nx/workspace-data/project-graph.json,.nx/workspace-data/source-maps.json
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:01.351Z - [REQUEST]: .nx/workspace-data/project-graph.json~0d2e8455,.nx/workspace-data/file-map.json~0d2e8455,.nx/workspace-data/source-maps.json~0d2e8455
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:01.352Z - Time taken for 'hash changed files from watcher' 0.32994604110717773ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:01.354Z - Time taken for 'build-project-configs' 1.7684260606765747ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:01.358Z - [SYNC]: collect registered sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:01.359Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:01.359Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:01.359Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:01.359Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:01.359Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:01.359Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:01.359Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:01.359Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:01.359Z - Time taken for 'total execution time for createProjectGraph()' 2.44070303440094ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:01.422Z - [WATCHER]: 3 file(s) created or restored, 0 file(s) modified, 3 file(s) deleted
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:01.422Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:01.422Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:01.422Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:01.422Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:01.422Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:01.422Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:01.422Z - Time taken for 'changed-projects' 0.01409304141998291ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:01.522Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:01.522Z - [REQUEST]: .nx/workspace-data/source-maps.json,.nx/workspace-data/file-map.json,.nx/workspace-data/project-graph.json
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:01.522Z - [REQUEST]: .nx/workspace-data/source-maps.json~2de0519f,.nx/workspace-data/project-graph.json~2de0519f,.nx/workspace-data/file-map.json~2de0519f
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:01.523Z - Time taken for 'hash changed files from watcher' 0.36422502994537354ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:01.526Z - Time taken for 'build-project-configs' 1.9034359455108643ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:01.530Z - [SYNC]: collect registered sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:01.530Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:01.530Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:01.530Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:01.530Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:01.530Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:01.530Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:01.530Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:01.530Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:01.531Z - Time taken for 'total execution time for createProjectGraph()' 2.5273449420928955ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:01.593Z - [WATCHER]: 3 file(s) created or restored, 0 file(s) modified, 3 file(s) deleted
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:01.593Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:01.593Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:01.593Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:01.593Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:01.594Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 1.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:01.594Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 1.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:01.594Z - Time taken for 'changed-projects' 0.013273954391479492ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:01.693Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:01.693Z - [REQUEST]: .nx/workspace-data/file-map.json,.nx/workspace-data/source-maps.json,.nx/workspace-data/project-graph.json
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:01.693Z - [REQUEST]: .nx/workspace-data/source-maps.json~ce0865dd,.nx/workspace-data/file-map.json~ce0865dd,.nx/workspace-data/project-graph.json~ce0865dd
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:01.695Z - Time taken for 'hash changed files from watcher' 0.3537179231643677ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:01.697Z - Time taken for 'build-project-configs' 1.8139010667800903ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:01.701Z - [SYNC]: collect registered sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:01.701Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:01.701Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:01.701Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:01.701Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:01.701Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:01.701Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:01.701Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:01.701Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:01.701Z - Time taken for 'total execution time for createProjectGraph()' 2.457658886909485ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:01.763Z - [WATCHER]: 3 file(s) created or restored, 0 file(s) modified, 3 file(s) deleted
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:01.763Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:01.763Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:01.763Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:01.763Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:01.763Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:01.763Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:01.763Z - Time taken for 'changed-projects' 0.01292109489440918ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:01.863Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:01.863Z - [REQUEST]: .nx/workspace-data/file-map.json,.nx/workspace-data/project-graph.json,.nx/workspace-data/source-maps.json
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:01.863Z - [REQUEST]: .nx/workspace-data/project-graph.json~99a4c4f4,.nx/workspace-data/file-map.json~99a4c4f4,.nx/workspace-data/source-maps.json~99a4c4f4
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:01.865Z - Time taken for 'hash changed files from watcher' 0.3152240514755249ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:01.867Z - Time taken for 'build-project-configs' 1.8673700094223022ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:01.870Z - [SYNC]: collect registered sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:01.871Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:01.871Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:01.871Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:01.871Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:01.871Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:01.871Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:01.871Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:01.871Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:01.871Z - Time taken for 'total execution time for createProjectGraph()' 2.181169033050537ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:01.932Z - [WATCHER]: 3 file(s) created or restored, 0 file(s) modified, 3 file(s) deleted
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:01.932Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:01.933Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:01.933Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:01.933Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:01.933Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 1.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:01.933Z - Handled FILE-WATCH-CHANGED. Handling time: 1. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:01.933Z - Time taken for 'changed-projects' 0.014557957649230957ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:02.033Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:02.033Z - [REQUEST]: .nx/workspace-data/source-maps.json,.nx/workspace-data/project-graph.json,.nx/workspace-data/file-map.json
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:02.033Z - [REQUEST]: .nx/workspace-data/file-map.json~d6138503,.nx/workspace-data/project-graph.json~d6138503,.nx/workspace-data/source-maps.json~d6138503
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:02.035Z - Time taken for 'hash changed files from watcher' 0.34172308444976807ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:02.037Z - Time taken for 'build-project-configs' 2.119389057159424ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:02.041Z - [SYNC]: collect registered sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:02.042Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:02.042Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:02.042Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:02.042Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:02.042Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:02.042Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:02.042Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:02.042Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:02.042Z - Time taken for 'total execution time for createProjectGraph()' 2.556467890739441ms
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:02.094Z - [WATCHER]: 3 file(s) created or restored, 0 file(s) modified, 3 file(s) deleted
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:02.095Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:02.095Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:02.095Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:02.095Z - Done responding to the client File watch changed
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:02.095Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:02.095Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.2.1 Daemon Server] - 2025-06-22T16:05:02.095Z - Time taken for 'changed-projects' 0.01627790927886963ms
